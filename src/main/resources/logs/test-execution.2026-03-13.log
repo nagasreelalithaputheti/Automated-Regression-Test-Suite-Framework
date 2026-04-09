@@ -1,0 +1,1180 @@
+2026-03-13 20:41:42.239 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 10308 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 20:41:42.257 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 20:41:42.262 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 20:41:44.250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 20:41:44.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2026-03-13 20:41:45.560 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 20:41:45.581 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 20:41:45.590 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 20:41:45.591 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 20:41:45.828 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 20:41:45.829 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3062 ms
+2026-03-13 20:41:45.891 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 20:41:46.255 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-13 20:41:46.259 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-13 20:41:46.283 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-13 20:41:47.331 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 20:41:47.432 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 20:41:49.316 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 20:41:49.353 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-13 20:41:50.100 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13 20:41:51.203 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13 20:41:51.274 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-13 20:41:52.281 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-13 20:41:52.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-13 20:41:52.387 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 11.287 seconds (process running for 12.119)
+2026-03-13 20:42:45.669 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 20:42:45.671 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-13 20:42:45.676 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-03-13 20:42:59.471 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: C005C513
+[2026-03-13 20:42:59.471] [INFO] [Thread-1] Starting UI Tests Only - Run ID: C005C513
+2026-03-13 20:42:59.474 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 20:42:59.474] [INFO] [Thread-1] Starting UI Test: Google Search Test
+2026-03-13 20:43:01.465 [Thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 20:43:01.673 [Thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 20:43:03.809 [Thread-1] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 20:43:03.810 [Thread-1] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 20:43:03.830 [Thread-1] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: Thread-1
+2026-03-13 20:43:04.277 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 20:43:07.342 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 20:43:07.690 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 20:43:07.694 [Thread-1] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 8217ms)
+[2026-03-13 20:43:07.694] [INFO] [Thread-1] UI Test Passed: Google Search Test (Duration: 8217ms)
+2026-03-13 20:43:07.951 [Thread-1] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: Thread-1
+2026-03-13 20:43:08.126 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:08.126] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-13 20:43:08.129 [Thread-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 20:43:08.129] [INFO] [Thread-1] TEST EXECUTION SUMMARY
+2026-03-13 20:43:08.131 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 1
+[2026-03-13 20:43:08.131] [INFO] [Thread-1] Total Tests: 1
+2026-03-13 20:43:08.135 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Passed: 1
+[2026-03-13 20:43:08.135] [INFO] [Thread-1] Passed: 1
+2026-03-13 20:43:08.139 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 20:43:08.139] [INFO] [Thread-1] Failed: 0
+2026-03-13 20:43:08.144 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 20:43:08.144] [INFO] [Thread-1] Pass Rate: 100.00%
+2026-03-13 20:43:08.148 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:08.147] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-13 20:43:12.246 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Tests Only - Run ID: AB64F920
+[2026-03-13 20:43:12.246] [INFO] [Thread-7] Starting API Tests Only - Run ID: AB64F920
+2026-03-13 20:43:12.248 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 20:43:12.248] [INFO] [Thread-7] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 20:43:16.053 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3805ms)
+[2026-03-13 20:43:16.053] [INFO] [Thread-7] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3805ms)
+2026-03-13 20:43:16.055 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 20:43:16.055] [INFO] [Thread-7] Starting API Test: POST /posts — Create New Post
+2026-03-13 20:43:16.630 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 575ms)
+[2026-03-13 20:43:16.630] [INFO] [Thread-7] API Test Passed: POST /posts — Create New Post (Duration: 575ms)
+2026-03-13 20:43:16.632 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 20:43:16.631] [INFO] [Thread-7] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 20:43:17.083 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 452ms)
+[2026-03-13 20:43:17.083] [INFO] [Thread-7] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 452ms)
+2026-03-13 20:43:17.096 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:17.095] [INFO] [Thread-7] ──────────────────────────────────────────────────
+2026-03-13 20:43:17.098 [Thread-7] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 20:43:17.098] [INFO] [Thread-7] TEST EXECUTION SUMMARY
+2026-03-13 20:43:17.100 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Total Tests: 3
+[2026-03-13 20:43:17.100] [INFO] [Thread-7] Total Tests: 3
+2026-03-13 20:43:17.102 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-13 20:43:17.102] [INFO] [Thread-7] Passed: 3
+2026-03-13 20:43:17.104 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 20:43:17.104] [INFO] [Thread-7] Failed: 0
+2026-03-13 20:43:17.105 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 20:43:17.105] [INFO] [Thread-7] Pass Rate: 100.00%
+2026-03-13 20:43:17.106 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:17.106] [INFO] [Thread-7] ──────────────────────────────────────────────────
+2026-03-13 20:43:33.569 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 20:43:33.569] [INFO] [Thread-8] ========================================
+2026-03-13 20:43:33.571 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 5F9C196C
+[2026-03-13 20:43:33.571] [INFO] [Thread-8] TEST EXECUTION STARTED - Run ID: 5F9C196C
+2026-03-13 20:43:33.574 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 20:43:33.574] [INFO] [Thread-8] ========================================
+2026-03-13 20:43:33.575 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 20:43:33.575 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 20:43:33.576 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 5F9C196C                      ║
+2026-03-13 20:43:33.576 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 20:43:33.578 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 20:43:33.583 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 20:43:33.583 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 20:43:33.583 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 20:43:33.583] [INFO] [test-thread-70] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 20:43:33.583 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 20:43:33.583] [INFO] [test-thread-71] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 20:43:33.583] [INFO] [test-thread-69] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 20:43:33.583] [INFO] [test-thread-72] Starting UI Test: Google Search Test
+2026-03-13 20:43:33.623 [test-thread-72] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 20:43:33.675 [test-thread-72] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 20:43:34.181 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 599ms)
+[2026-03-13 20:43:34.181] [INFO] [test-thread-69] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 599ms)
+2026-03-13 20:43:34.183 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-13 20:43:34.184 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 601ms)
+[2026-03-13 20:43:34.183] [INFO] [test-thread-69] Starting API Test: POST /posts — Create New Post
+[2026-03-13 20:43:34.184] [INFO] [test-thread-71] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 601ms)
+2026-03-13 20:43:34.185 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 20:43:34.185] [INFO] [test-thread-71] Starting API Test: POST /posts — Create New Post
+2026-03-13 20:43:34.227 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 644ms)
+[2026-03-13 20:43:34.227] [INFO] [test-thread-70] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 644ms)
+2026-03-13 20:43:34.229 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 20:43:34.229] [INFO] [test-thread-70] Starting API Test: POST /posts — Create New Post
+2026-03-13 20:43:34.566 [test-thread-72] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 20:43:34.567 [test-thread-72] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 20:43:34.568 [test-thread-72] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-72
+2026-03-13 20:43:34.707 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 524ms)
+[2026-03-13 20:43:34.707] [INFO] [test-thread-69] API Test Passed: POST /posts — Create New Post (Duration: 524ms)
+2026-03-13 20:43:34.709 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 20:43:34.709] [INFO] [test-thread-69] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 20:43:34.748 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 518ms)
+[2026-03-13 20:43:34.748] [INFO] [test-thread-70] API Test Passed: POST /posts — Create New Post (Duration: 518ms)
+2026-03-13 20:43:34.750 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 20:43:34.750] [INFO] [test-thread-70] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 20:43:34.840 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 655ms)
+[2026-03-13 20:43:34.840] [INFO] [test-thread-71] API Test Passed: POST /posts — Create New Post (Duration: 655ms)
+2026-03-13 20:43:34.842 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 20:43:34.842] [INFO] [test-thread-71] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 20:43:35.004 [test-thread-72] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 20:43:35.121 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 411ms)
+[2026-03-13 20:43:35.120] [INFO] [test-thread-69] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 411ms)
+2026-03-13 20:43:35.125 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (599ms)
+2026-03-13 20:43:35.264 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 514ms)
+[2026-03-13 20:43:35.264] [INFO] [test-thread-70] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 514ms)
+2026-03-13 20:43:35.270 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (518ms)
+2026-03-13 20:43:35.274 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 431ms)
+[2026-03-13 20:43:35.274] [INFO] [test-thread-71] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 431ms)
+2026-03-13 20:43:35.278 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (431ms)
+2026-03-13 20:43:37.485 [test-thread-72] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 20:43:37.888 [test-thread-72] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 20:43:37.888 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 4305ms)
+[2026-03-13 20:43:37.888] [INFO] [test-thread-72] UI Test Passed: Google Search Test (Duration: 4305ms)
+2026-03-13 20:43:38.159 [test-thread-72] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-72
+2026-03-13 20:43:38.163 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (4305ms)
+2026-03-13 20:43:38.164 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 20:43:38.164] [INFO] [Thread-8] ========================================
+2026-03-13 20:43:38.167 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 20:43:38.167] [INFO] [Thread-8] TEST EXECUTION COMPLETED
+2026-03-13 20:43:38.169 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 20:43:38.169] [INFO] [Thread-8] Total Tests: 4
+2026-03-13 20:43:38.172 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 20:43:38.172] [INFO] [Thread-8] Passed: 4
+2026-03-13 20:43:38.173 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 20:43:38.172] [INFO] [Thread-8] Failed: 0
+2026-03-13 20:43:38.174 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 20:43:38.174] [INFO] [Thread-8] ========================================
+2026-03-13 20:43:38.175 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:38.175] [INFO] [Thread-8] ──────────────────────────────────────────────────
+2026-03-13 20:43:38.175 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 20:43:38.175] [INFO] [Thread-8] TEST EXECUTION SUMMARY
+2026-03-13 20:43:38.177 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 20:43:38.177] [INFO] [Thread-8] Total Tests: 4
+2026-03-13 20:43:38.178 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 20:43:38.178] [INFO] [Thread-8] Passed: 4
+2026-03-13 20:43:38.179 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 20:43:38.179] [INFO] [Thread-8] Failed: 0
+2026-03-13 20:43:38.181 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 20:43:38.181] [INFO] [Thread-8] Pass Rate: 100.00%
+2026-03-13 20:43:38.182 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 20:43:38.182] [INFO] [Thread-8] ──────────────────────────────────────────────────
+2026-03-13 20:43:38.182 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 20:43:38.183 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [5F9C196C]                  ║
+2026-03-13 20:43:38.183 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 20:43:38.183 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 20:43:38.193 [Thread-8] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-13 20:44:08.896 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 20:44:08.902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-13 20:44:08.905 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-13 20:46:15.551 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 4708 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 20:46:15.556 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 20:46:15.559 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 20:46:17.601 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 20:46:17.720 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2026-03-13 20:46:19.125 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 20:46:19.163 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 20:46:19.175 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 20:46:19.182 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 20:46:19.468 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 20:46:19.469 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3414 ms
+2026-03-13 20:46:19.548 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 20:46:20.024 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-13 20:46:20.029 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-13 20:46:20.063 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-13 20:46:21.148 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 20:46:21.247 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 20:46:23.038 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 20:46:23.076 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-13 20:46:23.788 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13 20:46:24.858 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13 20:46:24.911 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-13 20:46:25.871 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-13 20:46:25.933 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-13 20:46:25.958 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 11.524 seconds (process running for 12.383)
+2026-03-13 20:46:49.213 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 20:46:49.213 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-13 20:46:49.217 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-13 20:54:16.900 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 20:54:16.907 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-13 20:54:16.912 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-13 21:26:41.779 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 7580 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 21:26:41.782 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 21:26:41.783 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 21:26:43.743 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 21:26:43.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2026-03-13 21:26:45.122 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 21:26:45.140 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:26:45.147 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 21:26:45.150 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 21:26:45.378 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 21:26:45.380 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3137 ms
+2026-03-13 21:26:45.528 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2026-03-13 21:26:45.535 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-03-13 21:26:45.567 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-13 21:26:45.603 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:802)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.framework.AutomationFrameworkApplication.main(AutomationFrameworkApplication.java:26)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:643)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1441)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 35 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:175)
+	at org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:49)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:55)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	... 36 common frames omitted
+2026-03-13 21:38:31.050 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 7112 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 21:38:31.054 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 21:38:31.056 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 21:38:32.664 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 21:38:32.766 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2026-03-13 21:38:33.641 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 21:38:33.656 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:38:33.660 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 21:38:33.661 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 21:38:33.806 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 21:38:33.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2291 ms
+2026-03-13 21:38:34.553 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 21:38:34.593 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 21:38:35.856 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Unknown database 'automationdb'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:273)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:105)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:169)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.framework.AutomationFrameworkApplication.main(AutomationFrameworkApplication.java:26)
+2026-03-13 21:38:35.863 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:273)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:105)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:169)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.framework.AutomationFrameworkApplication.main(AutomationFrameworkApplication.java:26)
+2026-03-13 21:38:35.895 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 21:38:35.897 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-13 21:38:37.233 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 21:38:38.255 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Unknown database 'automationdb'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.framework.AutomationFrameworkApplication.main(AutomationFrameworkApplication.java:26)
+2026-03-13 21:38:38.260 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1049, SQLState: 42000
+2026-03-13 21:38:38.261 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unknown database 'automationdb'
+2026-03-13 21:38:38.270 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'automationdb'] [n/a]
+2026-03-13 21:38:38.271 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'automationdb'] [n/a]
+2026-03-13 21:38:38.274 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-03-13 21:38:38.293 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-13 21:38:38.320 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'automationdb'] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1775)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1173)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:936)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.framework.AutomationFrameworkApplication.main(AutomationFrameworkApplication.java:26)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'automationdb'] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	... 16 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'automationdb'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'automationdb'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:424)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 41 common frames omitted
+2026-03-13 21:51:48.107 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 2576 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 21:51:48.110 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 21:51:48.111 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 21:51:49.822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 21:51:49.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2026-03-13 21:51:50.940 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 21:51:50.955 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:51:50.960 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 21:51:50.962 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 21:51:51.151 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 21:51:51.152 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2603 ms
+2026-03-13 21:51:52.042 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 21:51:52.087 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 21:51:52.376 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12be4f83
+2026-03-13 21:51:52.379 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-13 21:51:52.484 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 21:51:52.486 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-13 21:51:53.983 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 21:51:54.007 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-13 21:51:54.540 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13 21:51:55.537 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13 21:51:55.568 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-13 21:51:56.308 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:51:56.343 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-13 21:51:56.357 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 9.194 seconds (process running for 9.924)
+2026-03-13 21:52:26.847 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 21:52:26.847 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-13 21:52:26.850 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-13 21:52:59.506 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 18420 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 21:52:59.509 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 21:52:59.510 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 21:53:01.070 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 21:53:01.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-03-13 21:53:02.232 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 21:53:02.245 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:53:02.251 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 21:53:02.253 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 21:53:02.448 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 21:53:02.449 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2513 ms
+2026-03-13 21:53:03.272 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 21:53:03.322 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 21:53:03.592 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718f3088
+2026-03-13 21:53:03.596 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-13 21:53:03.689 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 21:53:03.690 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-13 21:53:05.139 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 21:53:05.162 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-13 21:53:05.684 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13 21:53:06.462 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13 21:53:06.499 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-13 21:53:07.199 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-13 21:53:07.235 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-13 21:53:07.251 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 8.636 seconds (process running for 9.319)
+2026-03-13 22:01:14.000 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 22:01:14.000 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-13 22:01:14.003 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-13 22:01:36.002 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:01:36.002] [INFO] [http-nio-8080-exec-2] ========================================
+2026-03-13 22:01:36.005 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 28716FEF
+[2026-03-13 22:01:36.004] [INFO] [http-nio-8080-exec-2] TEST EXECUTION STARTED - Run ID: 28716FEF
+2026-03-13 22:01:36.005 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:01:36.005] [INFO] [http-nio-8080-exec-2] ========================================
+2026-03-13 22:01:36.006 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:01:36.006 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 22:01:36.007 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 28716FEF                      ║
+2026-03-13 22:01:36.007 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 22:01:36.008 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:01:36.012 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-13 22:01:36.012 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:01:36.012 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:01:36.012 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:01:36.012] [INFO] [test-thread-49] Starting UI Test: Google Search Test
+[2026-03-13 22:01:36.012] [INFO] [test-thread-47] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:01:36.012] [INFO] [test-thread-48] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:01:36.012] [INFO] [test-thread-46] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:01:37.168 [test-thread-49] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:01:37.223 [test-thread-49] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:01:38.864 [test-thread-49] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:01:38.867 [test-thread-49] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:01:38.878 [test-thread-49] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-49
+2026-03-13 22:01:39.365 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3350ms)
+2026-03-13 22:01:39.365 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3350ms)
+2026-03-13 22:01:39.365 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3351ms)
+[2026-03-13 22:01:39.365] [INFO] [test-thread-47] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3350ms)
+[2026-03-13 22:01:39.365] [INFO] [test-thread-46] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3351ms)
+2026-03-13 22:01:39.366 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:01:39.365] [INFO] [test-thread-48] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3350ms)
+2026-03-13 22:01:39.366 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-13 22:01:39.367 [test-thread-49] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+[2026-03-13 22:01:39.366] [INFO] [test-thread-46] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:01:39.367 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:01:39.366] [INFO] [test-thread-47] Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:01:39.367] [INFO] [test-thread-48] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:01:39.907 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 540ms)
+2026-03-13 22:01:39.907 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 541ms)
+[2026-03-13 22:01:39.907] [INFO] [test-thread-48] API Test Passed: POST /posts — Create New Post (Duration: 540ms)
+[2026-03-13 22:01:39.907] [INFO] [test-thread-47] API Test Passed: POST /posts — Create New Post (Duration: 541ms)
+2026-03-13 22:01:39.909 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:01:39.910 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:01:39.909] [INFO] [test-thread-48] Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:01:39.910] [INFO] [test-thread-47] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:01:39.947 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 581ms)
+[2026-03-13 22:01:39.947] [INFO] [test-thread-46] API Test Passed: POST /posts — Create New Post (Duration: 581ms)
+2026-03-13 22:01:39.949 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:01:39.949] [INFO] [test-thread-46] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:01:40.336 [test-thread-47] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 426ms)
+[2026-03-13 22:01:40.336] [INFO] [test-thread-47] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 426ms)
+2026-03-13 22:01:40.371 [test-thread-48] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 463ms)
+[2026-03-13 22:01:40.371] [INFO] [test-thread-48] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 463ms)
+2026-03-13 22:01:40.382 [test-thread-46] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 433ms)
+[2026-03-13 22:01:40.382] [INFO] [test-thread-46] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 433ms)
+2026-03-13 22:01:40.487 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (3351ms)
+2026-03-13 22:01:40.497 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (541ms)
+2026-03-13 22:01:40.507 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (463ms)
+2026-03-13 22:01:41.023 [test-thread-49] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 22:01:41.316 [test-thread-49] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 22:01:41.318 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 5305ms)
+[2026-03-13 22:01:41.318] [INFO] [test-thread-49] UI Test Passed: Google Search Test (Duration: 5305ms)
+2026-03-13 22:01:41.549 [test-thread-49] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-49
+2026-03-13 22:01:41.556 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (5305ms)
+2026-03-13 22:01:41.557 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:01:41.557] [INFO] [http-nio-8080-exec-2] ========================================
+2026-03-13 22:01:41.559 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 22:01:41.559] [INFO] [http-nio-8080-exec-2] TEST EXECUTION COMPLETED
+2026-03-13 22:01:41.559 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:01:41.559] [INFO] [http-nio-8080-exec-2] Total Tests: 4
+2026-03-13 22:01:41.561 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:01:41.561] [INFO] [http-nio-8080-exec-2] Passed: 4
+2026-03-13 22:01:41.562 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:01:41.562] [INFO] [http-nio-8080-exec-2] Failed: 0
+2026-03-13 22:01:41.563 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:01:41.563] [INFO] [http-nio-8080-exec-2] ========================================
+2026-03-13 22:01:41.564 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:01:41.564] [INFO] [http-nio-8080-exec-2] ──────────────────────────────────────────────────
+2026-03-13 22:01:41.565 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:01:41.565] [INFO] [http-nio-8080-exec-2] TEST EXECUTION SUMMARY
+2026-03-13 22:01:41.566 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:01:41.566] [INFO] [http-nio-8080-exec-2] Total Tests: 4
+2026-03-13 22:01:41.568 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:01:41.567] [INFO] [http-nio-8080-exec-2] Passed: 4
+2026-03-13 22:01:41.568 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:01:41.568] [INFO] [http-nio-8080-exec-2] Failed: 0
+2026-03-13 22:01:41.573 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:01:41.573] [INFO] [http-nio-8080-exec-2] Pass Rate: 100.00%
+2026-03-13 22:01:41.574 [http-nio-8080-exec-2] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:01:41.574] [INFO] [http-nio-8080-exec-2] ──────────────────────────────────────────────────
+2026-03-13 22:01:41.575 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:01:41.575 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [28716FEF]                  ║
+2026-03-13 22:01:41.576 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 22:01:41.577 [http-nio-8080-exec-2] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:01:41.583 [http-nio-8080-exec-2] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-13 22:04:02.710 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:04:02.710] [INFO] [http-nio-8080-exec-5] ========================================
+2026-03-13 22:04:02.712 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 44AD2EAD
+[2026-03-13 22:04:02.712] [INFO] [http-nio-8080-exec-5] TEST EXECUTION STARTED - Run ID: 44AD2EAD
+2026-03-13 22:04:02.713 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:04:02.713] [INFO] [http-nio-8080-exec-5] ========================================
+2026-03-13 22:04:02.713 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:04:02.715 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 22:04:02.715 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 44AD2EAD                      ║
+2026-03-13 22:04:02.716 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 22:04:02.716 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:04:02.717 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:04:02.717 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:04:02.717 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:04:02.718 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 22:04:02.717] [INFO] [test-thread-67] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:04:02.718] [INFO] [test-thread-70] Starting UI Test: Google Search Test
+[2026-03-13 22:04:02.717] [INFO] [test-thread-68] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:04:02.717] [INFO] [test-thread-69] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:04:02.745 [test-thread-70] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:04:02.784 [test-thread-70] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:04:03.247 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 530ms)
+[2026-03-13 22:04:03.247] [INFO] [test-thread-69] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 530ms)
+2026-03-13 22:04:03.250 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:04:03.250] [INFO] [test-thread-69] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:04:03.251 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 534ms)
+[2026-03-13 22:04:03.251] [INFO] [test-thread-67] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 534ms)
+2026-03-13 22:04:03.252 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:04:03.252] [INFO] [test-thread-67] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:04:03.256 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 539ms)
+[2026-03-13 22:04:03.256] [INFO] [test-thread-68] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 539ms)
+2026-03-13 22:04:03.258 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:04:03.258] [INFO] [test-thread-68] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:04:03.761 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 510ms)
+[2026-03-13 22:04:03.760] [INFO] [test-thread-69] API Test Passed: POST /posts — Create New Post (Duration: 510ms)
+2026-03-13 22:04:03.762 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:04:03.762] [INFO] [test-thread-69] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:04:03.789 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 530ms)
+[2026-03-13 22:04:03.788] [INFO] [test-thread-68] API Test Passed: POST /posts — Create New Post (Duration: 530ms)
+2026-03-13 22:04:03.789 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:04:03.789] [INFO] [test-thread-68] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:04:03.829 [test-thread-70] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:04:03.830 [test-thread-70] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:04:03.831 [test-thread-70] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-70
+2026-03-13 22:04:03.905 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 653ms)
+[2026-03-13 22:04:03.905] [INFO] [test-thread-67] API Test Passed: POST /posts — Create New Post (Duration: 653ms)
+2026-03-13 22:04:03.907 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:04:03.907] [INFO] [test-thread-67] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:04:04.214 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 425ms)
+[2026-03-13 22:04:04.214] [INFO] [test-thread-68] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 425ms)
+2026-03-13 22:04:04.315 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 408ms)
+[2026-03-13 22:04:04.315] [INFO] [test-thread-67] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 408ms)
+2026-03-13 22:04:04.323 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 561ms)
+[2026-03-13 22:04:04.323] [INFO] [test-thread-69] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 561ms)
+2026-03-13 22:04:04.326 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (534ms)
+2026-03-13 22:04:04.336 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (530ms)
+2026-03-13 22:04:04.346 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (561ms)
+2026-03-13 22:04:04.720 [test-thread-70] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:04:35.032 [test-thread-70] WARN  c.e.framework.selenium.UITestRunner - [UITestRunner] Result container not found - continuing with page validation
+2026-03-13 22:04:35.073 [test-thread-70] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "https://www.google.com/search?q=Selenium+WebDriver&hl=en&sei=eTy0aZvjG5Si1e8Pke2KqAc"
+2026-03-13 22:04:35.074 [test-thread-70] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 32355ms)
+[2026-03-13 22:04:35.074] [INFO] [test-thread-70] UI Test Passed: Google Search Test (Duration: 32355ms)
+2026-03-13 22:04:35.484 [test-thread-70] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-70
+2026-03-13 22:04:35.495 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (32355ms)
+2026-03-13 22:04:35.497 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:04:35.497] [INFO] [http-nio-8080-exec-5] ========================================
+2026-03-13 22:04:35.498 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 22:04:35.498] [INFO] [http-nio-8080-exec-5] TEST EXECUTION COMPLETED
+2026-03-13 22:04:35.500 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:04:35.500] [INFO] [http-nio-8080-exec-5] Total Tests: 4
+2026-03-13 22:04:35.501 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:04:35.501] [INFO] [http-nio-8080-exec-5] Passed: 4
+2026-03-13 22:04:35.502 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:04:35.502] [INFO] [http-nio-8080-exec-5] Failed: 0
+2026-03-13 22:04:35.503 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:04:35.503] [INFO] [http-nio-8080-exec-5] ========================================
+2026-03-13 22:04:35.504 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:04:35.504] [INFO] [http-nio-8080-exec-5] ──────────────────────────────────────────────────
+2026-03-13 22:04:35.504 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:04:35.504] [INFO] [http-nio-8080-exec-5] TEST EXECUTION SUMMARY
+2026-03-13 22:04:35.506 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:04:35.506] [INFO] [http-nio-8080-exec-5] Total Tests: 4
+2026-03-13 22:04:35.507 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:04:35.507] [INFO] [http-nio-8080-exec-5] Passed: 4
+2026-03-13 22:04:35.508 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:04:35.508] [INFO] [http-nio-8080-exec-5] Failed: 0
+2026-03-13 22:04:35.509 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:04:35.509] [INFO] [http-nio-8080-exec-5] Pass Rate: 100.00%
+2026-03-13 22:04:35.511 [http-nio-8080-exec-5] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:04:35.511] [INFO] [http-nio-8080-exec-5] ──────────────────────────────────────────────────
+2026-03-13 22:04:35.512 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:04:35.512 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [44AD2EAD]                  ║
+2026-03-13 22:04:35.512 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 22:04:35.513 [http-nio-8080-exec-5] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:04:35.514 [http-nio-8080-exec-5] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-13 22:13:03.032 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: 4368F8DD
+[2026-03-13 22:13:03.032] [INFO] [Thread-19] Starting UI Tests Only - Run ID: 4368F8DD
+2026-03-13 22:13:03.033 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 22:13:03.033] [INFO] [Thread-19] Starting UI Test: Google Search Test
+2026-03-13 22:13:03.063 [Thread-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:13:03.111 [Thread-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:13:04.226 [Thread-19] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:13:04.228 [Thread-19] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:13:04.229 [Thread-19] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: Thread-19
+2026-03-13 22:13:04.722 [Thread-19] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:13:06.519 [Thread-19] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 22:13:06.908 [Thread-19] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 22:13:06.909 [Thread-19] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 3876ms)
+[2026-03-13 22:13:06.909] [INFO] [Thread-19] UI Test Passed: Google Search Test (Duration: 3876ms)
+2026-03-13 22:13:07.154 [Thread-19] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: Thread-19
+2026-03-13 22:13:07.166 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:13:07.166] [INFO] [Thread-19] ──────────────────────────────────────────────────
+2026-03-13 22:13:07.167 [Thread-19] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:13:07.167] [INFO] [Thread-19] TEST EXECUTION SUMMARY
+2026-03-13 22:13:07.168 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Total Tests: 1
+[2026-03-13 22:13:07.168] [INFO] [Thread-19] Total Tests: 1
+2026-03-13 22:13:07.170 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Passed: 1
+[2026-03-13 22:13:07.170] [INFO] [Thread-19] Passed: 1
+2026-03-13 22:13:07.171 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:13:07.171] [INFO] [Thread-19] Failed: 0
+2026-03-13 22:13:07.172 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:13:07.172] [INFO] [Thread-19] Pass Rate: 100.00%
+2026-03-13 22:13:07.173 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:13:07.173] [INFO] [Thread-19] ──────────────────────────────────────────────────
+2026-03-13 22:13:26.789 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Starting API Tests Only - Run ID: F317969E
+[2026-03-13 22:13:26.789] [INFO] [Thread-25] Starting API Tests Only - Run ID: F317969E
+2026-03-13 22:13:26.792 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:13:26.792] [INFO] [Thread-25] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:13:27.673 [Thread-25] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 881ms)
+[2026-03-13 22:13:27.673] [INFO] [Thread-25] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 881ms)
+2026-03-13 22:13:27.674 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:13:27.674] [INFO] [Thread-25] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:13:28.182 [Thread-25] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 508ms)
+[2026-03-13 22:13:28.182] [INFO] [Thread-25] API Test Passed: POST /posts — Create New Post (Duration: 508ms)
+2026-03-13 22:13:28.185 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:13:28.185] [INFO] [Thread-25] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:13:28.681 [Thread-25] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 496ms)
+[2026-03-13 22:13:28.681] [INFO] [Thread-25] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 496ms)
+2026-03-13 22:13:28.714 [Thread-25] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:13:28.714] [INFO] [Thread-25] ──────────────────────────────────────────────────
+2026-03-13 22:13:28.715 [Thread-25] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:13:28.715] [INFO] [Thread-25] TEST EXECUTION SUMMARY
+2026-03-13 22:13:28.716 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Total Tests: 3
+[2026-03-13 22:13:28.716] [INFO] [Thread-25] Total Tests: 3
+2026-03-13 22:13:28.717 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-13 22:13:28.717] [INFO] [Thread-25] Passed: 3
+2026-03-13 22:13:28.719 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:13:28.719] [INFO] [Thread-25] Failed: 0
+2026-03-13 22:13:28.720 [Thread-25] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:13:28.720] [INFO] [Thread-25] Pass Rate: 100.00%
+2026-03-13 22:13:28.721 [Thread-25] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:13:28.721] [INFO] [Thread-25] ──────────────────────────────────────────────────
+2026-03-13 22:13:30.197 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:13:30.197] [INFO] [Thread-26] ========================================
+2026-03-13 22:13:30.200 [Thread-26] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 1EC0A6D5
+[2026-03-13 22:13:30.200] [INFO] [Thread-26] TEST EXECUTION STARTED - Run ID: 1EC0A6D5
+2026-03-13 22:13:30.201 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:13:30.201] [INFO] [Thread-26] ========================================
+2026-03-13 22:13:30.202 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:13:30.202 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 22:13:30.203 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 1EC0A6D5                      ║
+2026-03-13 22:13:30.203 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 22:13:30.204 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:13:30.206 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:13:30.207 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:13:30.207 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-13 22:13:30.207 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:13:30.206] [INFO] [test-thread-107] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:13:30.207] [INFO] [test-thread-109] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:13:30.207] [INFO] [test-thread-110] Starting UI Test: Google Search Test
+[2026-03-13 22:13:30.207] [INFO] [test-thread-108] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:13:30.268 [test-thread-110] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:13:30.307 [test-thread-110] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:13:30.642 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 435ms)
+[2026-03-13 22:13:30.642] [INFO] [test-thread-108] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 435ms)
+2026-03-13 22:13:30.643 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:13:30.643] [INFO] [test-thread-108] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:13:30.719 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 513ms)
+[2026-03-13 22:13:30.719] [INFO] [test-thread-107] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 513ms)
+2026-03-13 22:13:30.723 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 516ms)
+[2026-03-13 22:13:30.723] [INFO] [test-thread-109] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 516ms)
+2026-03-13 22:13:30.727 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:13:30.727] [INFO] [test-thread-109] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:13:30.724 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:13:30.724] [INFO] [test-thread-107] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:13:31.138 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 495ms)
+[2026-03-13 22:13:31.138] [INFO] [test-thread-108] API Test Passed: POST /posts — Create New Post (Duration: 495ms)
+2026-03-13 22:13:31.140 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:13:31.140] [INFO] [test-thread-108] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:13:31.196 [test-thread-110] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:13:31.197 [test-thread-110] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:13:31.198 [test-thread-110] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-110
+2026-03-13 22:13:31.282 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 555ms)
+[2026-03-13 22:13:31.282] [INFO] [test-thread-109] API Test Passed: POST /posts — Create New Post (Duration: 555ms)
+2026-03-13 22:13:31.284 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:13:31.284] [INFO] [test-thread-109] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:13:31.424 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 699ms)
+[2026-03-13 22:13:31.423] [INFO] [test-thread-107] API Test Passed: POST /posts — Create New Post (Duration: 699ms)
+2026-03-13 22:13:31.426 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:13:31.426] [INFO] [test-thread-107] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:13:31.560 [test-thread-108] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 420ms)
+[2026-03-13 22:13:31.560] [INFO] [test-thread-108] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 420ms)
+2026-03-13 22:13:31.681 [test-thread-109] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 397ms)
+[2026-03-13 22:13:31.681] [INFO] [test-thread-109] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 397ms)
+2026-03-13 22:13:31.837 [test-thread-107] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 410ms)
+[2026-03-13 22:13:31.836] [INFO] [test-thread-107] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 410ms)
+2026-03-13 22:13:31.849 [Thread-26] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (513ms)
+2026-03-13 22:13:31.859 [Thread-26] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (495ms)
+2026-03-13 22:13:31.867 [Thread-26] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (397ms)
+2026-03-13 22:13:32.034 [test-thread-110] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:14:02.165 [test-thread-110] WARN  c.e.framework.selenium.UITestRunner - [UITestRunner] Result container not found - continuing with page validation
+2026-03-13 22:14:02.188 [test-thread-110] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "https://www.google.com/search?q=Selenium+WebDriver&hl=en&sei=sD60adfNLoPg1e8P2OXH4QI"
+2026-03-13 22:14:02.188 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 31981ms)
+[2026-03-13 22:14:02.188] [INFO] [test-thread-110] UI Test Passed: Google Search Test (Duration: 31981ms)
+2026-03-13 22:14:02.494 [test-thread-110] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-110
+2026-03-13 22:14:02.503 [Thread-26] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (31981ms)
+2026-03-13 22:14:02.504 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:14:02.504] [INFO] [Thread-26] ========================================
+2026-03-13 22:14:02.506 [Thread-26] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 22:14:02.504] [INFO] [Thread-26] TEST EXECUTION COMPLETED
+2026-03-13 22:14:02.506 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:14:02.506] [INFO] [Thread-26] Total Tests: 4
+2026-03-13 22:14:02.507 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:14:02.507] [INFO] [Thread-26] Passed: 4
+2026-03-13 22:14:02.508 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:14:02.508] [INFO] [Thread-26] Failed: 0
+2026-03-13 22:14:02.509 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:14:02.509] [INFO] [Thread-26] ========================================
+2026-03-13 22:14:02.509 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:14:02.509] [INFO] [Thread-26] ──────────────────────────────────────────────────
+2026-03-13 22:14:02.511 [Thread-26] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:14:02.511] [INFO] [Thread-26] TEST EXECUTION SUMMARY
+2026-03-13 22:14:02.512 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:14:02.512] [INFO] [Thread-26] Total Tests: 4
+2026-03-13 22:14:02.513 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:14:02.513] [INFO] [Thread-26] Passed: 4
+2026-03-13 22:14:02.514 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:14:02.514] [INFO] [Thread-26] Failed: 0
+2026-03-13 22:14:02.515 [Thread-26] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:14:02.515] [INFO] [Thread-26] Pass Rate: 100.00%
+2026-03-13 22:14:02.515 [Thread-26] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:14:02.515] [INFO] [Thread-26] ──────────────────────────────────────────────────
+2026-03-13 22:14:02.517 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:14:02.517 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [1EC0A6D5]                  ║
+2026-03-13 22:14:02.518 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 22:14:02.518 [Thread-26] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:14:02.520 [Thread-26] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-13 22:25:25.112 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:25:25.112] [INFO] [http-nio-8080-exec-1] ========================================
+2026-03-13 22:25:25.113 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 5C1E8241
+[2026-03-13 22:25:25.113] [INFO] [http-nio-8080-exec-1] TEST EXECUTION STARTED - Run ID: 5C1E8241
+2026-03-13 22:25:25.114 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:25:25.114] [INFO] [http-nio-8080-exec-1] ========================================
+2026-03-13 22:25:25.116 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:25:25.116 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 22:25:25.116 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 5C1E8241                      ║
+2026-03-13 22:25:25.117 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 22:25:25.117 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:25:25.118 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:25:25.118 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:25:25.118 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 22:25:25.118] [INFO] [test-thread-132] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:25:25.118 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:25:25.118] [INFO] [test-thread-134] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:25:25.118] [INFO] [test-thread-135] Starting UI Test: Google Search Test
+[2026-03-13 22:25:25.118] [INFO] [test-thread-133] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:25:25.143 [test-thread-135] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:25:25.181 [test-thread-135] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:25:25.782 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 664ms)
+[2026-03-13 22:25:25.782] [INFO] [test-thread-134] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 664ms)
+2026-03-13 22:25:25.784 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:25:25.784] [INFO] [test-thread-134] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:25:25.792 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 674ms)
+[2026-03-13 22:25:25.792] [INFO] [test-thread-132] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 674ms)
+2026-03-13 22:25:25.801 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:25:25.800] [INFO] [test-thread-132] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:25:25.819 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 701ms)
+[2026-03-13 22:25:25.819] [INFO] [test-thread-133] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 701ms)
+2026-03-13 22:25:25.827 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:25:25.827] [INFO] [test-thread-133] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:25:26.260 [test-thread-135] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:25:26.261 [test-thread-135] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:25:26.261 [test-thread-135] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-135
+2026-03-13 22:25:26.566 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 766ms)
+[2026-03-13 22:25:26.566] [INFO] [test-thread-132] API Test Passed: POST /posts — Create New Post (Duration: 766ms)
+2026-03-13 22:25:26.568 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:25:26.568] [INFO] [test-thread-132] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:25:26.621 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 794ms)
+[2026-03-13 22:25:26.621] [INFO] [test-thread-133] API Test Passed: POST /posts — Create New Post (Duration: 794ms)
+2026-03-13 22:25:26.622 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:25:26.622] [INFO] [test-thread-133] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:25:26.667 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 883ms)
+[2026-03-13 22:25:26.667] [INFO] [test-thread-134] API Test Passed: POST /posts — Create New Post (Duration: 883ms)
+2026-03-13 22:25:26.669 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:25:26.669] [INFO] [test-thread-134] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:25:26.721 [test-thread-135] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:25:27.254 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 685ms)
+[2026-03-13 22:25:27.254] [INFO] [test-thread-132] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 685ms)
+2026-03-13 22:25:27.270 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (674ms)
+2026-03-13 22:25:27.282 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 660ms)
+[2026-03-13 22:25:27.282] [INFO] [test-thread-133] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 660ms)
+2026-03-13 22:25:27.293 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (794ms)
+2026-03-13 22:25:27.322 [test-thread-134] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 653ms)
+[2026-03-13 22:25:27.322] [INFO] [test-thread-134] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 653ms)
+2026-03-13 22:25:27.333 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (653ms)
+2026-03-13 22:25:28.963 [test-thread-135] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 22:25:29.303 [test-thread-135] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 22:25:29.303 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 4185ms)
+[2026-03-13 22:25:29.303] [INFO] [test-thread-135] UI Test Passed: Google Search Test (Duration: 4185ms)
+2026-03-13 22:25:29.591 [test-thread-135] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-135
+2026-03-13 22:25:29.603 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (4185ms)
+2026-03-13 22:25:29.605 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:25:29.605] [INFO] [http-nio-8080-exec-1] ========================================
+2026-03-13 22:25:29.606 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 22:25:29.606] [INFO] [http-nio-8080-exec-1] TEST EXECUTION COMPLETED
+2026-03-13 22:25:29.607 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:25:29.607] [INFO] [http-nio-8080-exec-1] Total Tests: 4
+2026-03-13 22:25:29.608 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:25:29.608] [INFO] [http-nio-8080-exec-1] Passed: 4
+2026-03-13 22:25:29.609 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:25:29.609] [INFO] [http-nio-8080-exec-1] Failed: 0
+2026-03-13 22:25:29.611 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:25:29.611] [INFO] [http-nio-8080-exec-1] ========================================
+2026-03-13 22:25:29.612 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:25:29.612] [INFO] [http-nio-8080-exec-1] ──────────────────────────────────────────────────
+2026-03-13 22:25:29.613 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:25:29.613] [INFO] [http-nio-8080-exec-1] TEST EXECUTION SUMMARY
+2026-03-13 22:25:29.614 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:25:29.614] [INFO] [http-nio-8080-exec-1] Total Tests: 4
+2026-03-13 22:25:29.615 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:25:29.615] [INFO] [http-nio-8080-exec-1] Passed: 4
+2026-03-13 22:25:29.616 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:25:29.616] [INFO] [http-nio-8080-exec-1] Failed: 0
+2026-03-13 22:25:29.617 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:25:29.617] [INFO] [http-nio-8080-exec-1] Pass Rate: 100.00%
+2026-03-13 22:25:29.619 [http-nio-8080-exec-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:25:29.619] [INFO] [http-nio-8080-exec-1] ──────────────────────────────────────────────────
+2026-03-13 22:25:29.620 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:25:29.620 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [5C1E8241]                  ║
+2026-03-13 22:25:29.620 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 22:25:29.620 [http-nio-8080-exec-1] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:25:29.622 [http-nio-8080-exec-1] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-13 22:31:22.128 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 18016 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-13 22:31:22.133 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-13 22:31:22.136 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-13 22:31:24.228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13 22:31:24.362 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+2026-03-13 22:31:25.493 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-13 22:31:25.509 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-13 22:31:25.517 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-13 22:31:25.518 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-13 22:31:25.706 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-13 22:31:25.707 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3022 ms
+2026-03-13 22:31:26.605 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13 22:31:26.653 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-13 22:31:26.954 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d58dc61
+2026-03-13 22:31:26.959 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-13 22:31:27.056 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13 22:31:27.059 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-13 22:31:28.692 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13 22:31:28.719 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-13 22:31:29.369 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13 22:31:30.328 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13 22:31:30.369 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-13 22:31:31.192 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-13 22:31:31.237 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-13 22:31:31.253 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 10.356 seconds (process running for 11.269)
+2026-03-13 22:31:54.899 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13 22:31:54.901 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-13 22:31:54.904 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-13 22:34:09.367 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: 2B2D12DE
+[2026-03-13 22:34:09.367] [INFO] [Thread-1] Starting UI Tests Only - Run ID: 2B2D12DE
+2026-03-13 22:34:09.371 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 22:34:09.371] [INFO] [Thread-1] Starting UI Test: Google Search Test
+2026-03-13 22:34:10.038 [Thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:34:10.126 [Thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:34:12.046 [Thread-1] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:34:12.048 [Thread-1] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:34:12.059 [Thread-1] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: Thread-1
+2026-03-13 22:34:12.626 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:34:14.839 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Search result container found
+2026-03-13 22:34:15.248 [Thread-1] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "Selenium WebDriver - Google Search"
+2026-03-13 22:34:15.252 [Thread-1] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 5878ms)
+[2026-03-13 22:34:15.252] [INFO] [Thread-1] UI Test Passed: Google Search Test (Duration: 5878ms)
+2026-03-13 22:34:15.548 [Thread-1] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: Thread-1
+2026-03-13 22:34:15.662 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:34:15.662] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-13 22:34:15.664 [Thread-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:34:15.664] [INFO] [Thread-1] TEST EXECUTION SUMMARY
+2026-03-13 22:34:15.666 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 1
+[2026-03-13 22:34:15.666] [INFO] [Thread-1] Total Tests: 1
+2026-03-13 22:34:15.667 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Passed: 1
+[2026-03-13 22:34:15.667] [INFO] [Thread-1] Passed: 1
+2026-03-13 22:34:15.668 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:34:15.668] [INFO] [Thread-1] Failed: 0
+2026-03-13 22:34:15.671 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:34:15.671] [INFO] [Thread-1] Pass Rate: 100.00%
+2026-03-13 22:34:15.672 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:34:15.672] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-13 22:34:19.877 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:34:19.876] [INFO] [Thread-7] ========================================
+2026-03-13 22:34:19.882 [Thread-7] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 4FDEBC75
+[2026-03-13 22:34:19.881] [INFO] [Thread-7] TEST EXECUTION STARTED - Run ID: 4FDEBC75
+2026-03-13 22:34:19.885 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:34:19.885] [INFO] [Thread-7] ========================================
+2026-03-13 22:34:19.888 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:34:19.890 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-13 22:34:19.891 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 4FDEBC75                      ║
+2026-03-13 22:34:19.892 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-13 22:34:19.893 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:34:19.901 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:34:19.901 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:34:19.901 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:34:19.901 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-13 22:34:19.901] [INFO] [test-thread-64] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:34:19.901] [INFO] [test-thread-67] Starting UI Test: Google Search Test
+[2026-03-13 22:34:19.901] [INFO] [test-thread-66] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-13 22:34:19.901] [INFO] [test-thread-65] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-13 22:34:19.927 [test-thread-67] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 22:34:19.979 [test-thread-67] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nagas\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 22:34:20.941 [test-thread-67] WARN  o.o.s.devtools.CdpVersionFinder - Unable to find CDP implementation matching 145
+2026-03-13 22:34:20.942 [test-thread-67] WARN  o.o.selenium.chromium.ChromiumDriver - Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-13 22:34:20.944 [test-thread-67] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] Created new WebDriver for thread: test-thread-67
+2026-03-13 22:34:23.062 [test-thread-67] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Navigated to: https://www.google.com/search?q=Selenium+WebDriver&hl=en
+2026-03-13 22:34:24.377 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4476ms)
+2026-03-13 22:34:24.377 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4475ms)
+2026-03-13 22:34:24.377 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4475ms)
+[2026-03-13 22:34:24.377] [INFO] [test-thread-66] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4476ms)
+[2026-03-13 22:34:24.377] [INFO] [test-thread-64] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4475ms)
+2026-03-13 22:34:24.378 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:34:24.378] [INFO] [test-thread-66] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:34:24.379 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:34:24.377] [INFO] [test-thread-65] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4475ms)
+[2026-03-13 22:34:24.379] [INFO] [test-thread-64] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:34:24.381 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-13 22:34:24.381] [INFO] [test-thread-65] Starting API Test: POST /posts — Create New Post
+2026-03-13 22:34:25.000 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 622ms)
+[2026-03-13 22:34:25.000] [INFO] [test-thread-66] API Test Passed: POST /posts — Create New Post (Duration: 622ms)
+2026-03-13 22:34:25.001 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:34:25.001 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 620ms)
+[2026-03-13 22:34:25.001] [INFO] [test-thread-66] Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:34:25.001] [INFO] [test-thread-65] API Test Passed: POST /posts — Create New Post (Duration: 620ms)
+2026-03-13 22:34:25.004 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:34:25.004] [INFO] [test-thread-65] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:34:25.063 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 684ms)
+[2026-03-13 22:34:25.063] [INFO] [test-thread-64] API Test Passed: POST /posts — Create New Post (Duration: 684ms)
+2026-03-13 22:34:25.064 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-13 22:34:25.064] [INFO] [test-thread-64] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-13 22:34:25.417 [test-thread-65] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 413ms)
+[2026-03-13 22:34:25.417] [INFO] [test-thread-65] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 413ms)
+2026-03-13 22:34:25.460 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 458ms)
+[2026-03-13 22:34:25.460] [INFO] [test-thread-66] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 458ms)
+2026-03-13 22:34:25.539 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 475ms)
+[2026-03-13 22:34:25.539] [INFO] [test-thread-64] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 475ms)
+2026-03-13 22:34:25.551 [Thread-7] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (4475ms)
+2026-03-13 22:34:25.565 [Thread-7] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (620ms)
+2026-03-13 22:34:25.575 [Thread-7] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (458ms)
+2026-03-13 22:34:53.329 [test-thread-67] WARN  c.e.framework.selenium.UITestRunner - [UITestRunner] Result container not found - continuing with page validation
+2026-03-13 22:34:53.361 [test-thread-67] INFO  c.e.framework.selenium.UITestRunner - [UITestRunner] Page title: "https://www.google.com/search?q=Selenium+WebDriver&hl=en&sei=kkO0aczpG_mmvr0Pzrbd8Qs"
+2026-03-13 22:34:53.361 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - UI Test Passed: Google Search Test (Duration: 33460ms)
+[2026-03-13 22:34:53.361] [INFO] [test-thread-67] UI Test Passed: Google Search Test (Duration: 33460ms)
+2026-03-13 22:34:53.741 [test-thread-67] INFO  c.e.f.selenium.BrowserManager - [BrowserManager] WebDriver quit for thread: test-thread-67
+2026-03-13 22:34:53.753 [Thread-7] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] Google Search Test (33460ms)
+2026-03-13 22:34:53.756 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:34:53.756] [INFO] [Thread-7] ========================================
+2026-03-13 22:34:53.758 [Thread-7] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-13 22:34:53.758] [INFO] [Thread-7] TEST EXECUTION COMPLETED
+2026-03-13 22:34:53.760 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:34:53.760] [INFO] [Thread-7] Total Tests: 4
+2026-03-13 22:34:53.761 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:34:53.761] [INFO] [Thread-7] Passed: 4
+2026-03-13 22:34:53.762 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:34:53.762] [INFO] [Thread-7] Failed: 0
+2026-03-13 22:34:53.763 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-13 22:34:53.763] [INFO] [Thread-7] ========================================
+2026-03-13 22:34:53.764 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:34:53.764] [INFO] [Thread-7] ──────────────────────────────────────────────────
+2026-03-13 22:34:53.765 [Thread-7] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-13 22:34:53.765] [INFO] [Thread-7] TEST EXECUTION SUMMARY
+2026-03-13 22:34:53.767 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-13 22:34:53.767] [INFO] [Thread-7] Total Tests: 4
+2026-03-13 22:34:53.768 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Passed: 4
+[2026-03-13 22:34:53.768] [INFO] [Thread-7] Passed: 4
+2026-03-13 22:34:53.768 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+[2026-03-13 22:34:53.768] [INFO] [Thread-7] Failed: 0
+2026-03-13 22:34:53.770 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+[2026-03-13 22:34:53.770] [INFO] [Thread-7] Pass Rate: 100.00%
+2026-03-13 22:34:53.771 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-13 22:34:53.771] [INFO] [Thread-7] ──────────────────────────────────────────────────
+2026-03-13 22:34:53.773 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-13 22:34:53.773 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [4FDEBC75]                  ║
+2026-03-13 22:34:53.773 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 4  |  Failed : 0 ║
+2026-03-13 22:34:53.773 [Thread-7] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-13 22:34:53.779 [Thread-7] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'

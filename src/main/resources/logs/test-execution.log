@@ -1,0 +1,669 @@
+2026-03-26 21:07:18.776 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 19360 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:07:18.796 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:07:18.801 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:07:20.713 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:07:20.843 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2026-03-26 21:07:22.061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:07:22.083 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:07:22.092 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:07:22.093 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:07:22.318 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:07:22.320 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3045 ms
+2026-03-26 21:07:23.393 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:07:23.463 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:07:23.633 [main] INFO  i.o.api.GlobalOpenTelemetry - AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+2026-03-26 21:07:23.898 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65e05005
+2026-03-26 21:07:23.901 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:07:24.012 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:07:24.015 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-26 21:07:25.747 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:07:25.773 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:07:26.354 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:07:27.222 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:07:27.261 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:07:28.017 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:07:28.072 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-26 21:07:28.090 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 10.503 seconds (process running for 11.445)
+2026-03-26 21:10:29.136 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 2460 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:10:29.139 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:10:29.142 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:10:30.983 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:10:31.094 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2026-03-26 21:10:32.149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:10:32.163 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:10:32.169 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:10:32.169 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:10:32.339 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:10:32.340 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2692 ms
+2026-03-26 21:10:32.396 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:10:32.840 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-26 21:10:32.845 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:10:32.868 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-26 21:10:33.769 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:10:33.852 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:10:34.449 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 21:10:34.450 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-26 21:10:34.451 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-26 21:10:35.533 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:10:35.556 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:10:36.136 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:10:37.085 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:10:37.124 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:10:38.218 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:10:38.240 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 21:10:38.244 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:10:38.251 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-26 21:10:38.255 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-26 21:10:38.281 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 21:10:38.324 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26 21:11:30.591 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:11:30.591] [INFO] [Thread-1] ========================================
+2026-03-26 21:11:30.595 [Thread-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 9D764C7C
+[2026-03-26 21:11:30.595] [INFO] [Thread-1] TEST EXECUTION STARTED - Run ID: 9D764C7C
+2026-03-26 21:11:30.597 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:11:30.597] [INFO] [Thread-1] ========================================
+2026-03-26 21:11:30.598 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:11:30.599 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-26 21:11:30.599 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 9D764C7C                      ║
+2026-03-26 21:11:30.600 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-26 21:11:30.600 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:11:30.604 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-26 21:11:30.604 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:11:30.604] [INFO] [test-thread-52] Starting UI Test: Google Search Test
+2026-03-26 21:11:30.604 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:11:30.604 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:11:30.604] [INFO] [test-thread-50] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:11:30.604] [INFO] [test-thread-51] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:11:30.604] [INFO] [test-thread-49] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:11:34.770 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+2026-03-26 21:11:34.770 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+2026-03-26 21:11:34.770 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+[2026-03-26 21:11:34.770] [INFO] [test-thread-51] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+[2026-03-26 21:11:34.770] [INFO] [test-thread-50] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+2026-03-26 21:11:34.773 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:11:34.770] [INFO] [test-thread-49] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 4162ms)
+2026-03-26 21:11:34.774 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:11:34.774] [INFO] [test-thread-50] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:11:34.774 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:11:34.773] [INFO] [test-thread-51] Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:11:34.774] [INFO] [test-thread-49] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:11:35.337 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 564ms)
+[2026-03-26 21:11:35.337] [INFO] [test-thread-51] API Test Passed: POST /posts — Create New Post (Duration: 564ms)
+2026-03-26 21:11:35.339 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:11:35.339] [INFO] [test-thread-51] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:11:35.520 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 746ms)
+[2026-03-26 21:11:35.520] [INFO] [test-thread-50] API Test Passed: POST /posts — Create New Post (Duration: 746ms)
+2026-03-26 21:11:35.521 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:11:35.521] [INFO] [test-thread-50] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:11:35.648 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 874ms)
+[2026-03-26 21:11:35.648] [INFO] [test-thread-49] API Test Passed: POST /posts — Create New Post (Duration: 874ms)
+2026-03-26 21:11:35.650 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:11:35.650] [INFO] [test-thread-49] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:11:35.870 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 531ms)
+[2026-03-26 21:11:35.870] [INFO] [test-thread-51] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 531ms)
+2026-03-26 21:11:36.034 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 513ms)
+[2026-03-26 21:11:36.034] [INFO] [test-thread-50] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 513ms)
+2026-03-26 21:11:36.209 [test-thread-49] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 559ms)
+[2026-03-26 21:11:36.209] [INFO] [test-thread-49] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 559ms)
+2026-03-26 21:11:36.396 [Thread-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (4162ms)
+2026-03-26 21:11:36.407 [Thread-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (746ms)
+2026-03-26 21:11:36.421 [Thread-1] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (531ms)
+2026-03-26 21:11:36.423 [Thread-1] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-26 21:11:36.424 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:11:36.424] [INFO] [Thread-1] ========================================
+2026-03-26 21:11:36.426 [Thread-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-26 21:11:36.426] [INFO] [Thread-1] TEST EXECUTION COMPLETED
+2026-03-26 21:11:36.428 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:11:36.428] [INFO] [Thread-1] Total Tests: 4
+2026-03-26 21:11:36.430 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:11:36.430] [INFO] [Thread-1] Passed: 3
+2026-03-26 21:11:36.431 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:11:36.431] [INFO] [Thread-1] Failed: 1
+2026-03-26 21:11:36.434 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:11:36.433] [INFO] [Thread-1] ========================================
+2026-03-26 21:11:36.435 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:11:36.435] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-26 21:11:36.436 [Thread-1] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-26 21:11:36.436] [INFO] [Thread-1] TEST EXECUTION SUMMARY
+2026-03-26 21:11:36.437 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:11:36.437] [INFO] [Thread-1] Total Tests: 4
+2026-03-26 21:11:36.438 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:11:36.438] [INFO] [Thread-1] Passed: 3
+2026-03-26 21:11:36.440 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:11:36.439] [INFO] [Thread-1] Failed: 1
+2026-03-26 21:11:36.445 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+[2026-03-26 21:11:36.444] [INFO] [Thread-1] Pass Rate: 75.00%
+2026-03-26 21:11:36.446 [Thread-1] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:11:36.446] [INFO] [Thread-1] ──────────────────────────────────────────────────
+2026-03-26 21:11:36.448 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:11:36.449 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [9D764C7C]                  ║
+2026-03-26 21:11:36.449 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-26 21:11:36.449 [Thread-1] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:11:36.453 [Thread-1] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-26 21:12:27.541 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 2032 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:12:27.548 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:12:27.550 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:12:29.297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:12:29.412 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2026-03-26 21:12:30.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:12:30.419 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:12:30.424 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:12:30.425 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:12:30.590 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:12:30.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2602 ms
+2026-03-26 21:12:30.698 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:12:31.066 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-26 21:12:31.069 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:12:31.090 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-26 21:12:31.935 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:12:32.022 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:12:33.537 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:12:33.563 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:12:34.134 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:12:34.997 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:12:35.035 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:12:35.739 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:12:35.761 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 21:12:35.763 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:12:35.771 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-26 21:12:35.777 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-26 21:12:35.801 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 21:12:35.834 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26 21:14:08.712 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 11376 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:14:08.715 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:14:08.717 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:14:11.122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:14:11.271 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2026-03-26 21:14:12.540 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:14:12.562 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:14:12.569 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:14:12.570 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:14:12.793 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:14:12.795 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3558 ms
+2026-03-26 21:14:12.867 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:14:13.275 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-26 21:14:13.281 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:14:13.303 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-26 21:14:14.461 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:14:14.569 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:14:16.521 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:14:16.551 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:14:17.299 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:14:18.288 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:14:18.331 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:14:19.255 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:14:19.280 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 21:14:19.284 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:14:19.294 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-26 21:14:19.298 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-26 21:14:19.325 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 21:14:19.386 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26 21:15:08.763 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 26504 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:15:08.766 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:15:08.768 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:15:10.593 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:15:10.717 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2026-03-26 21:15:11.783 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:15:11.800 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:15:11.805 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:15:11.806 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:15:11.988 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:15:11.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2768 ms
+2026-03-26 21:15:12.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:15:12.431 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-26 21:15:12.435 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:15:12.457 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-26 21:15:13.350 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:15:13.445 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:15:15.066 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:15:15.096 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:15:15.772 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:15:16.738 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:15:16.782 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:15:17.647 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:15:17.672 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 21:15:17.677 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:15:17.687 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-26 21:15:17.691 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-26 21:15:17.717 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 21:15:17.754 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26 21:16:42.918 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 14688 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-26 21:16:42.920 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-26 21:16:42.923 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-26 21:16:44.904 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 21:16:45.034 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interface.
+2026-03-26 21:16:46.335 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-26 21:16:46.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:16:46.359 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-26 21:16:46.360 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-26 21:16:46.544 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-26 21:16:46.545 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3140 ms
+2026-03-26 21:16:46.605 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-26 21:16:46.954 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automationdb user=SA
+2026-03-26 21:16:46.958 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-26 21:16:46.979 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:automationdb'
+2026-03-26 21:16:47.804 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 21:16:47.891 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 21:16:49.400 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:16:49.425 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-26 21:16:49.975 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 21:16:50.821 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 21:16:50.861 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-26 21:16:51.561 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 21:16:51.582 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-26 21:16:51.585 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 21:16:51.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-26 21:16:51.594 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-26 21:16:51.618 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 21:16:51.650 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-26 21:18:20.882 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:18:20.882] [INFO] [Thread-6] ========================================
+2026-03-26 21:18:20.884 [Thread-6] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 91621FAF
+[2026-03-26 21:18:20.884] [INFO] [Thread-6] TEST EXECUTION STARTED - Run ID: 91621FAF
+2026-03-26 21:18:20.885 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:18:20.885] [INFO] [Thread-6] ========================================
+2026-03-26 21:18:20.887 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:18:20.888 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-26 21:18:20.889 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 91621FAF                      ║
+2026-03-26 21:18:20.892 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-26 21:18:20.892 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:18:20.897 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:18:20.897 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:18:20.897 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:18:20.898 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-26 21:18:20.897] [INFO] [test-thread-56] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:18:20.898] [INFO] [test-thread-59] Starting UI Test: Google Search Test
+[2026-03-26 21:18:20.897] [INFO] [test-thread-58] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:18:20.897] [INFO] [test-thread-57] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:18:21.303 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 406ms)
+[2026-03-26 21:18:21.303] [INFO] [test-thread-57] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 406ms)
+2026-03-26 21:18:21.304 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:18:21.304] [INFO] [test-thread-57] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:18:21.468 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 571ms)
+2026-03-26 21:18:21.469 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 572ms)
+[2026-03-26 21:18:21.468] [INFO] [test-thread-58] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 571ms)
+2026-03-26 21:18:21.470 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:18:21.469] [INFO] [test-thread-56] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 572ms)
+2026-03-26 21:18:21.471 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:18:21.470] [INFO] [test-thread-58] Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:18:21.471] [INFO] [test-thread-56] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:18:21.931 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 627ms)
+[2026-03-26 21:18:21.931] [INFO] [test-thread-57] API Test Passed: POST /posts — Create New Post (Duration: 627ms)
+2026-03-26 21:18:21.932 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:18:21.932] [INFO] [test-thread-57] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:18:21.983 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 512ms)
+[2026-03-26 21:18:21.983] [INFO] [test-thread-56] API Test Passed: POST /posts — Create New Post (Duration: 512ms)
+2026-03-26 21:18:21.985 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:18:21.985] [INFO] [test-thread-56] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:18:22.104 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 634ms)
+[2026-03-26 21:18:22.104] [INFO] [test-thread-58] API Test Passed: POST /posts — Create New Post (Duration: 634ms)
+2026-03-26 21:18:22.105 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:18:22.105] [INFO] [test-thread-58] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:18:22.371 [test-thread-57] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 439ms)
+[2026-03-26 21:18:22.371] [INFO] [test-thread-57] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 439ms)
+2026-03-26 21:18:22.534 [test-thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 549ms)
+[2026-03-26 21:18:22.534] [INFO] [test-thread-56] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 549ms)
+2026-03-26 21:18:22.586 [Thread-6] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (572ms)
+2026-03-26 21:18:22.596 [Thread-6] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (627ms)
+2026-03-26 21:18:22.661 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 556ms)
+[2026-03-26 21:18:22.661] [INFO] [test-thread-58] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 556ms)
+2026-03-26 21:18:22.671 [Thread-6] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (556ms)
+2026-03-26 21:18:22.671 [Thread-6] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-26 21:18:22.672 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:18:22.672] [INFO] [Thread-6] ========================================
+2026-03-26 21:18:22.673 [Thread-6] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-26 21:18:22.673] [INFO] [Thread-6] TEST EXECUTION COMPLETED
+2026-03-26 21:18:22.673 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:18:22.673] [INFO] [Thread-6] Total Tests: 4
+2026-03-26 21:18:22.675 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:18:22.675] [INFO] [Thread-6] Passed: 3
+2026-03-26 21:18:22.676 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:18:22.676] [INFO] [Thread-6] Failed: 1
+2026-03-26 21:18:22.676 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:18:22.676] [INFO] [Thread-6] ========================================
+2026-03-26 21:18:22.678 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:18:22.678] [INFO] [Thread-6] ──────────────────────────────────────────────────
+2026-03-26 21:18:22.680 [Thread-6] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-26 21:18:22.680] [INFO] [Thread-6] TEST EXECUTION SUMMARY
+2026-03-26 21:18:22.681 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:18:22.681] [INFO] [Thread-6] Total Tests: 4
+2026-03-26 21:18:22.682 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:18:22.682] [INFO] [Thread-6] Passed: 3
+2026-03-26 21:18:22.684 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:18:22.683] [INFO] [Thread-6] Failed: 1
+2026-03-26 21:18:22.685 [Thread-6] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+[2026-03-26 21:18:22.685] [INFO] [Thread-6] Pass Rate: 75.00%
+2026-03-26 21:18:22.685 [Thread-6] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:18:22.685] [INFO] [Thread-6] ──────────────────────────────────────────────────
+2026-03-26 21:18:22.686 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:18:22.686 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [91621FAF]                  ║
+2026-03-26 21:18:22.688 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-26 21:18:22.688 [Thread-6] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:18:22.689 [Thread-6] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-26 21:24:46.926 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:24:46.926] [INFO] [Thread-11] ========================================
+2026-03-26 21:24:46.928 [Thread-11] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 0BD3C831
+[2026-03-26 21:24:46.928] [INFO] [Thread-11] TEST EXECUTION STARTED - Run ID: 0BD3C831
+2026-03-26 21:24:46.930 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:24:46.930] [INFO] [Thread-11] ========================================
+2026-03-26 21:24:46.932 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:24:46.938 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-26 21:24:46.939 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 0BD3C831                      ║
+2026-03-26 21:24:46.939 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-26 21:24:46.939 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:24:46.940 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:24:46.940 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:24:46.940 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:24:46.940 [test-thread-64] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-26 21:24:46.940] [INFO] [test-thread-61] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:24:46.940] [INFO] [test-thread-64] Starting UI Test: Google Search Test
+[2026-03-26 21:24:46.940] [INFO] [test-thread-63] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:24:46.940] [INFO] [test-thread-62] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:24:47.359 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 419ms)
+[2026-03-26 21:24:47.359] [INFO] [test-thread-62] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 419ms)
+2026-03-26 21:24:47.360 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:24:47.360] [INFO] [test-thread-62] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:24:47.379 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 439ms)
+[2026-03-26 21:24:47.379] [INFO] [test-thread-61] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 439ms)
+2026-03-26 21:24:47.379 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:24:47.379] [INFO] [test-thread-61] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:24:47.488 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 548ms)
+[2026-03-26 21:24:47.488] [INFO] [test-thread-63] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 548ms)
+2026-03-26 21:24:47.491 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:24:47.491] [INFO] [test-thread-63] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:24:47.863 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 503ms)
+[2026-03-26 21:24:47.863] [INFO] [test-thread-62] API Test Passed: POST /posts — Create New Post (Duration: 503ms)
+2026-03-26 21:24:47.864 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:24:47.864] [INFO] [test-thread-62] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:24:47.902 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 523ms)
+[2026-03-26 21:24:47.902] [INFO] [test-thread-61] API Test Passed: POST /posts — Create New Post (Duration: 523ms)
+2026-03-26 21:24:47.904 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:24:47.904] [INFO] [test-thread-61] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:24:48.124 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 633ms)
+[2026-03-26 21:24:48.124] [INFO] [test-thread-63] API Test Passed: POST /posts — Create New Post (Duration: 633ms)
+2026-03-26 21:24:48.125 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:24:48.125] [INFO] [test-thread-63] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:24:48.251 [test-thread-62] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 387ms)
+[2026-03-26 21:24:48.251] [INFO] [test-thread-62] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 387ms)
+2026-03-26 21:24:48.395 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 491ms)
+[2026-03-26 21:24:48.395] [INFO] [test-thread-61] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 491ms)
+2026-03-26 21:24:48.413 [Thread-11] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (439ms)
+2026-03-26 21:24:48.422 [Thread-11] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (503ms)
+2026-03-26 21:24:48.550 [test-thread-63] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 425ms)
+[2026-03-26 21:24:48.550] [INFO] [test-thread-63] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 425ms)
+2026-03-26 21:24:48.561 [Thread-11] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (425ms)
+2026-03-26 21:24:48.561 [Thread-11] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-26 21:24:48.562 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:24:48.562] [INFO] [Thread-11] ========================================
+2026-03-26 21:24:48.563 [Thread-11] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-26 21:24:48.563] [INFO] [Thread-11] TEST EXECUTION COMPLETED
+2026-03-26 21:24:48.564 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:24:48.564] [INFO] [Thread-11] Total Tests: 4
+2026-03-26 21:24:48.565 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:24:48.565] [INFO] [Thread-11] Passed: 3
+2026-03-26 21:24:48.566 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:24:48.566] [INFO] [Thread-11] Failed: 1
+2026-03-26 21:24:48.567 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:24:48.567] [INFO] [Thread-11] ========================================
+2026-03-26 21:24:48.569 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:24:48.569] [INFO] [Thread-11] ──────────────────────────────────────────────────
+2026-03-26 21:24:48.569 [Thread-11] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-26 21:24:48.569] [INFO] [Thread-11] TEST EXECUTION SUMMARY
+2026-03-26 21:24:48.570 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:24:48.570] [INFO] [Thread-11] Total Tests: 4
+2026-03-26 21:24:48.571 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:24:48.571] [INFO] [Thread-11] Passed: 3
+2026-03-26 21:24:48.572 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:24:48.572] [INFO] [Thread-11] Failed: 1
+2026-03-26 21:24:48.573 [Thread-11] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+[2026-03-26 21:24:48.573] [INFO] [Thread-11] Pass Rate: 75.00%
+2026-03-26 21:24:48.574 [Thread-11] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:24:48.574] [INFO] [Thread-11] ──────────────────────────────────────────────────
+2026-03-26 21:24:48.575 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:24:48.575 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [0BD3C831]                  ║
+2026-03-26 21:24:48.575 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-26 21:24:48.577 [Thread-11] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:24:48.578 [Thread-11] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-26 21:25:22.322 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:25:22.322] [INFO] [Thread-16] ========================================
+2026-03-26 21:25:22.325 [Thread-16] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: F90C03F3
+[2026-03-26 21:25:22.325] [INFO] [Thread-16] TEST EXECUTION STARTED - Run ID: F90C03F3
+2026-03-26 21:25:22.327 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:25:22.327] [INFO] [Thread-16] ========================================
+2026-03-26 21:25:22.328 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:25:22.328 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-26 21:25:22.329 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : F90C03F3                      ║
+2026-03-26 21:25:22.329 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-26 21:25:22.330 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:25:22.330 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:25:22.332 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:25:22.330] [INFO] [test-thread-66] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:25:22.332] [INFO] [test-thread-68] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:25:22.335 [test-thread-69] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+[2026-03-26 21:25:22.333] [INFO] [test-thread-69] Starting UI Test: Google Search Test
+2026-03-26 21:25:22.338 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:25:22.338] [INFO] [test-thread-67] Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:25:22.729 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 397ms)
+[2026-03-26 21:25:22.729] [INFO] [test-thread-68] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 397ms)
+2026-03-26 21:25:22.731 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:25:22.730] [INFO] [test-thread-68] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:25:22.764 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 426ms)
+[2026-03-26 21:25:22.764] [INFO] [test-thread-67] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 426ms)
+2026-03-26 21:25:22.765 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:25:22.765] [INFO] [test-thread-67] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:25:22.830 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 500ms)
+[2026-03-26 21:25:22.830] [INFO] [test-thread-66] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 500ms)
+2026-03-26 21:25:22.831 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:25:22.831] [INFO] [test-thread-66] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:25:23.290 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 525ms)
+2026-03-26 21:25:23.290 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 560ms)
+[2026-03-26 21:25:23.290] [INFO] [test-thread-67] API Test Passed: POST /posts — Create New Post (Duration: 525ms)
+[2026-03-26 21:25:23.290] [INFO] [test-thread-68] API Test Passed: POST /posts — Create New Post (Duration: 560ms)
+2026-03-26 21:25:23.292 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:25:23.293 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:25:23.292] [INFO] [test-thread-67] Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:25:23.293] [INFO] [test-thread-68] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:25:23.338 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 506ms)
+[2026-03-26 21:25:23.338] [INFO] [test-thread-66] API Test Passed: POST /posts — Create New Post (Duration: 506ms)
+2026-03-26 21:25:23.340 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:25:23.340] [INFO] [test-thread-66] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:25:23.690 [test-thread-68] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 396ms)
+2026-03-26 21:25:23.690 [test-thread-67] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 397ms)
+[2026-03-26 21:25:23.689] [INFO] [test-thread-68] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 396ms)
+[2026-03-26 21:25:23.689] [INFO] [test-thread-67] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 397ms)
+2026-03-26 21:25:23.725 [test-thread-66] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 385ms)
+[2026-03-26 21:25:23.725] [INFO] [test-thread-66] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 385ms)
+2026-03-26 21:25:23.739 [Thread-16] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (500ms)
+2026-03-26 21:25:23.747 [Thread-16] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (525ms)
+2026-03-26 21:25:23.756 [Thread-16] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (396ms)
+2026-03-26 21:25:23.756 [Thread-16] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-26 21:25:23.758 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:25:23.756] [INFO] [Thread-16] ========================================
+2026-03-26 21:25:23.759 [Thread-16] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-26 21:25:23.759] [INFO] [Thread-16] TEST EXECUTION COMPLETED
+2026-03-26 21:25:23.760 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:25:23.760] [INFO] [Thread-16] Total Tests: 4
+2026-03-26 21:25:23.760 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:25:23.760] [INFO] [Thread-16] Passed: 3
+2026-03-26 21:25:23.762 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:25:23.762] [INFO] [Thread-16] Failed: 1
+2026-03-26 21:25:23.763 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:25:23.763] [INFO] [Thread-16] ========================================
+2026-03-26 21:25:23.764 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:25:23.764] [INFO] [Thread-16] ──────────────────────────────────────────────────
+2026-03-26 21:25:23.765 [Thread-16] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-26 21:25:23.765] [INFO] [Thread-16] TEST EXECUTION SUMMARY
+2026-03-26 21:25:23.767 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:25:23.767] [INFO] [Thread-16] Total Tests: 4
+2026-03-26 21:25:23.768 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:25:23.768] [INFO] [Thread-16] Passed: 3
+2026-03-26 21:25:23.769 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:25:23.769] [INFO] [Thread-16] Failed: 1
+2026-03-26 21:25:23.770 [Thread-16] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+[2026-03-26 21:25:23.770] [INFO] [Thread-16] Pass Rate: 75.00%
+2026-03-26 21:25:23.771 [Thread-16] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:25:23.771] [INFO] [Thread-16] ──────────────────────────────────────────────────
+2026-03-26 21:25:23.772 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:25:23.772 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [F90C03F3]                  ║
+2026-03-26 21:25:23.773 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-26 21:25:23.773 [Thread-16] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:25:23.774 [Thread-16] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-26 21:29:06.814 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:29:06.812] [INFO] [Thread-21] ========================================
+2026-03-26 21:29:06.815 [Thread-21] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: A74D4543
+[2026-03-26 21:29:06.814] [INFO] [Thread-21] TEST EXECUTION STARTED - Run ID: A74D4543
+2026-03-26 21:29:06.816 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:29:06.816] [INFO] [Thread-21] ========================================
+2026-03-26 21:29:06.816 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:29:06.818 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-26 21:29:06.818 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : A74D4543                      ║
+2026-03-26 21:29:06.818 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-26 21:29:06.818 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:29:06.819 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:29:06.820 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-26 21:29:06.819 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-26 21:29:06.820 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:29:06.819] [INFO] [test-thread-71] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:29:06.820] [INFO] [test-thread-72] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:29:06.819] [INFO] [test-thread-73] Starting API Test: GET /posts/1 — Fetch Single Post
+[2026-03-26 21:29:06.820] [INFO] [test-thread-74] Starting UI Test: Google Search Test
+2026-03-26 21:29:07.272 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 452ms)
+[2026-03-26 21:29:07.272] [INFO] [test-thread-72] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 452ms)
+2026-03-26 21:29:07.274 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:29:07.274] [INFO] [test-thread-72] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:29:07.313 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 494ms)
+2026-03-26 21:29:07.313 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 494ms)
+[2026-03-26 21:29:07.313] [INFO] [test-thread-73] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 494ms)
+2026-03-26 21:29:07.315 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:29:07.313] [INFO] [test-thread-71] API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 494ms)
+2026-03-26 21:29:07.315 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:29:07.315] [INFO] [test-thread-73] Starting API Test: POST /posts — Create New Post
+[2026-03-26 21:29:07.315] [INFO] [test-thread-71] Starting API Test: POST /posts — Create New Post
+2026-03-26 21:29:07.865 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 550ms)
+[2026-03-26 21:29:07.865] [INFO] [test-thread-71] API Test Passed: POST /posts — Create New Post (Duration: 550ms)
+2026-03-26 21:29:07.867 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:29:07.867] [INFO] [test-thread-71] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:29:07.916 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 642ms)
+[2026-03-26 21:29:07.916] [INFO] [test-thread-72] API Test Passed: POST /posts — Create New Post (Duration: 642ms)
+2026-03-26 21:29:07.917 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:29:07.917] [INFO] [test-thread-72] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:29:07.938 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 622ms)
+[2026-03-26 21:29:07.938] [INFO] [test-thread-73] API Test Passed: POST /posts — Create New Post (Duration: 622ms)
+2026-03-26 21:29:07.940 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+[2026-03-26 21:29:07.940] [INFO] [test-thread-73] Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-26 21:29:08.307 [test-thread-71] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 440ms)
+[2026-03-26 21:29:08.307] [INFO] [test-thread-71] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 440ms)
+2026-03-26 21:29:08.324 [Thread-21] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (494ms)
+2026-03-26 21:29:08.391 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 451ms)
+2026-03-26 21:29:08.391 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 474ms)
+[2026-03-26 21:29:08.391] [INFO] [test-thread-73] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 451ms)
+[2026-03-26 21:29:08.391] [INFO] [test-thread-72] API Test Passed: GET /users/1 — Fetch User Profile (Duration: 474ms)
+2026-03-26 21:29:08.406 [Thread-21] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (642ms)
+2026-03-26 21:29:08.416 [Thread-21] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (451ms)
+2026-03-26 21:29:08.416 [Thread-21] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-26 21:29:08.417 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:29:08.417] [INFO] [Thread-21] ========================================
+2026-03-26 21:29:08.419 [Thread-21] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+[2026-03-26 21:29:08.418] [INFO] [Thread-21] TEST EXECUTION COMPLETED
+2026-03-26 21:29:08.420 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:29:08.420] [INFO] [Thread-21] Total Tests: 4
+2026-03-26 21:29:08.421 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:29:08.421] [INFO] [Thread-21] Passed: 3
+2026-03-26 21:29:08.422 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:29:08.422] [INFO] [Thread-21] Failed: 1
+2026-03-26 21:29:08.426 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ========================================
+[2026-03-26 21:29:08.426] [INFO] [Thread-21] ========================================
+2026-03-26 21:29:08.427 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:29:08.427] [INFO] [Thread-21] ──────────────────────────────────────────────────
+2026-03-26 21:29:08.428 [Thread-21] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+[2026-03-26 21:29:08.428] [INFO] [Thread-21] TEST EXECUTION SUMMARY
+2026-03-26 21:29:08.429 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+[2026-03-26 21:29:08.429] [INFO] [Thread-21] Total Tests: 4
+2026-03-26 21:29:08.433 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+[2026-03-26 21:29:08.433] [INFO] [Thread-21] Passed: 3
+2026-03-26 21:29:08.433 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+[2026-03-26 21:29:08.433] [INFO] [Thread-21] Failed: 1
+2026-03-26 21:29:08.435 [Thread-21] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+[2026-03-26 21:29:08.435] [INFO] [Thread-21] Pass Rate: 75.00%
+2026-03-26 21:29:08.436 [Thread-21] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+[2026-03-26 21:29:08.436] [INFO] [Thread-21] ──────────────────────────────────────────────────
+2026-03-26 21:29:08.437 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-26 21:29:08.437 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [A74D4543]                  ║
+2026-03-26 21:29:08.438 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-26 21:29:08.438 [Thread-21] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-26 21:29:08.440 [Thread-21] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'

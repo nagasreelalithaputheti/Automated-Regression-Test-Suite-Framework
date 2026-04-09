@@ -1,0 +1,613 @@
+2026-03-25 20:31:29.262 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 19572 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-25 20:31:29.276 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-25 20:31:29.279 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-25 20:31:31.149 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 20:31:31.293 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2026-03-25 20:31:32.296 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-25 20:31:32.312 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-25 20:31:32.318 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-25 20:31:32.319 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-25 20:31:32.493 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-25 20:31:32.494 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2735 ms
+2026-03-25 20:31:33.402 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 20:31:33.458 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-25 20:31:33.596 [main] INFO  i.o.api.GlobalOpenTelemetry - AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+2026-03-25 20:31:33.900 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a944af9
+2026-03-25 20:31:33.904 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-25 20:31:34.015 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 20:31:34.018 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-25 20:31:35.543 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 20:31:35.570 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-25 20:31:36.110 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 20:31:36.913 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25 20:31:36.960 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-25 20:31:37.632 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-25 20:31:37.672 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-03-25 20:31:37.685 [main] INFO  c.e.f.AutomationFrameworkApplication - Started AutomationFrameworkApplication in 9.505 seconds (process running for 10.252)
+2026-03-25 20:31:56.990 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-25 20:31:56.992 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-25 20:31:56.992 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-25 20:33:01.773 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: 47070988
+2026-03-25 20:33:01.781 [Thread-1] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 20:33:24.076 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:33:24.079 [Thread-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 91387E59
+2026-03-25 20:33:24.080 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:33:24.080 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 20:33:24.087 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 20:33:24.089 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 91387E59                      ║
+2026-03-25 20:33:24.089 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 20:33:24.089 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 20:33:24.092 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:33:24.092 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:33:24.092 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:33:24.092 [test-thread-53] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 20:33:25.591 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Tests Only - Run ID: 184AFD2F
+2026-03-25 20:33:25.595 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:33:27.840 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 2234ms)
+2026-03-25 20:33:27.840 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3737ms)
+2026-03-25 20:33:27.840 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3737ms)
+2026-03-25 20:33:27.840 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 3745ms)
+2026-03-25 20:33:27.841 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:33:27.841 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:33:27.841 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:33:27.841 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:33:28.421 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 580ms)
+2026-03-25 20:33:28.421 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:33:28.435 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 594ms)
+2026-03-25 20:33:28.435 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:33:28.521 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 680ms)
+2026-03-25 20:33:28.524 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:33:28.617 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 776ms)
+2026-03-25 20:33:28.621 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:33:28.854 [test-thread-50] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 419ms)
+2026-03-25 20:33:28.937 [test-thread-52] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 516ms)
+2026-03-25 20:33:29.031 [Thread-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (3745ms)
+2026-03-25 20:33:29.034 [Thread-7] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 510ms)
+2026-03-25 20:33:29.057 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:33:29.064 [Thread-7] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 20:33:29.064 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Total Tests: 3
+2026-03-25 20:33:29.064 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 20:33:29.064 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+2026-03-25 20:33:29.071 [Thread-7] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+2026-03-25 20:33:29.071 [Thread-7] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:33:29.213 [test-thread-51] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 593ms)
+2026-03-25 20:33:29.231 [Thread-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (776ms)
+2026-03-25 20:33:29.239 [Thread-2] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (516ms)
+2026-03-25 20:33:29.239 [Thread-2] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 20:33:29.239 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:33:29.244 [Thread-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 20:33:29.245 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 20:33:29.245 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 20:33:29.245 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 20:33:29.245 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:33:29.250 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:33:29.250 [Thread-2] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 20:33:29.251 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 20:33:29.251 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [91387E59]                  ║
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 20:33:29.256 [Thread-2] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 20:33:29.265 [Thread-2] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 20:38:06.378 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:38:06.380 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 0B8C72B4
+2026-03-25 20:38:06.381 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:38:06.382 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 20:38:06.382 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 20:38:06.382 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 0B8C72B4                      ║
+2026-03-25 20:38:06.383 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 20:38:06.383 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 20:38:06.385 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:38:06.385 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:38:06.385 [test-thread-61] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 20:38:06.385 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 20:38:07.005 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 620ms)
+2026-03-25 20:38:07.006 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:38:07.018 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 633ms)
+2026-03-25 20:38:07.020 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:38:07.052 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 667ms)
+2026-03-25 20:38:07.055 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 20:38:07.540 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 534ms)
+2026-03-25 20:38:07.542 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:38:07.547 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 492ms)
+2026-03-25 20:38:07.548 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:38:07.573 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 553ms)
+2026-03-25 20:38:07.575 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 20:38:07.942 [test-thread-58] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 399ms)
+2026-03-25 20:38:07.946 [test-thread-59] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 398ms)
+2026-03-25 20:38:07.957 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (620ms)
+2026-03-25 20:38:07.967 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (492ms)
+2026-03-25 20:38:08.005 [test-thread-60] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 430ms)
+2026-03-25 20:38:08.015 [Thread-8] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (430ms)
+2026-03-25 20:38:08.015 [Thread-8] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 20:38:08.017 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:38:08.018 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 20:38:08.021 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 20:38:08.021 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 20:38:08.022 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 20:38:08.023 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 20:38:08.025 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:38:08.025 [Thread-8] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 20:38:08.027 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 20:38:08.028 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 20:38:08.029 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 20:38:08.031 [Thread-8] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 20:38:08.032 [Thread-8] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 20:38:08.033 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 20:38:08.033 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [0B8C72B4]                  ║
+2026-03-25 20:38:08.033 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 20:38:08.033 [Thread-8] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 20:38:08.035 [Thread-8] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 20:38:18.978 [main] INFO  c.e.f.AutomationFrameworkApplication - Starting AutomationFrameworkApplication using Java 17.0.18 with PID 20844 (C:\Projects\infosys\target\classes started by nagas in C:\Projects\infosys)
+2026-03-25 20:38:18.983 [main] DEBUG c.e.f.AutomationFrameworkApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-03-25 20:38:18.985 [main] INFO  c.e.f.AutomationFrameworkApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-25 20:38:20.970 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 20:38:21.080 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2026-03-25 20:38:22.061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-25 20:38:22.075 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-25 20:38:22.082 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-25 20:38:22.083 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-03-25 20:38:22.257 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-25 20:38:22.258 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2783 ms
+2026-03-25 20:38:23.167 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 20:38:23.213 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-25 20:38:23.364 [main] INFO  i.o.api.GlobalOpenTelemetry - AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+2026-03-25 20:38:23.577 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28e48b65
+2026-03-25 20:38:23.582 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-25 20:38:23.666 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25 20:38:23.668 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-25 20:38:25.238 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 20:38:25.263 [main] INFO  c.example.framework.util.LoggerUtil - [LoggerUtil] Log file initialized at: C:\Projects\infosys\src\main\resources\logs\test-execution.log
+2026-03-25 20:38:25.892 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 20:38:26.690 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25 20:38:26.723 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-25 20:38:27.530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-25 20:38:27.541 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-25 20:38:27.546 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 20:38:27.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-25 20:38:27.566 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-25 20:38:27.595 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-25 20:38:27.628 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-25 21:02:26.139 [Thread-13] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: 7DB90D6D
+2026-03-25 21:02:26.140 [Thread-13] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 21:18:24.645 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:24.647 [Thread-14] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 0EFBC6BD
+2026-03-25 21:18:24.647 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:24.649 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:24.649 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 21:18:24.649 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 0EFBC6BD                      ║
+2026-03-25 21:18:24.651 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 21:18:24.651 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:24.653 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:24.653 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:24.653 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:24.655 [test-thread-75] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 21:18:25.115 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 462ms)
+2026-03-25 21:18:25.115 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 462ms)
+2026-03-25 21:18:25.117 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:25.117 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:25.130 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 477ms)
+2026-03-25 21:18:25.130 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:25.675 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 545ms)
+2026-03-25 21:18:25.675 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:25.727 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 610ms)
+2026-03-25 21:18:25.727 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 610ms)
+2026-03-25 21:18:25.730 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:25.730 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:25.981 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:25.981 [Thread-19] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 1E9DBD91
+2026-03-25 21:18:25.983 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:25.986 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:25.986 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 21:18:25.986 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 1E9DBD91                      ║
+2026-03-25 21:18:25.986 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 21:18:25.986 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:25.988 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:25.988 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:25.988 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:25.988 [test-thread-80] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 21:18:26.154 [test-thread-73] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 424ms)
+2026-03-25 21:18:26.154 [test-thread-72] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 424ms)
+2026-03-25 21:18:26.154 [test-thread-74] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 479ms)
+2026-03-25 21:18:26.167 [Thread-14] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (462ms)
+2026-03-25 21:18:26.177 [Thread-14] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (610ms)
+2026-03-25 21:18:26.183 [Thread-14] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (479ms)
+2026-03-25 21:18:26.183 [Thread-14] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 21:18:26.183 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:26.189 [Thread-14] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 21:18:26.189 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:26.189 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:26.192 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:26.193 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:26.193 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:26.193 [Thread-14] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 21:18:26.193 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:26.193 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:26.199 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:26.200 [Thread-14] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 21:18:26.200 [Thread-14] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:26.200 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:26.200 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [0EFBC6BD]                  ║
+2026-03-25 21:18:26.200 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 21:18:26.204 [Thread-14] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:26.204 [Thread-14] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 21:18:26.392 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 404ms)
+2026-03-25 21:18:26.393 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:26.393 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 405ms)
+2026-03-25 21:18:26.393 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:26.393 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 405ms)
+2026-03-25 21:18:26.398 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:26.875 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 482ms)
+2026-03-25 21:18:26.880 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:26.968 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 575ms)
+2026-03-25 21:18:26.971 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:26.977 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 579ms)
+2026-03-25 21:18:26.979 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:27.380 [test-thread-79] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 409ms)
+2026-03-25 21:18:27.423 [test-thread-78] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 543ms)
+2026-03-25 21:18:27.478 [test-thread-77] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 499ms)
+2026-03-25 21:18:27.486 [Thread-19] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (405ms)
+2026-03-25 21:18:27.495 [Thread-19] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (482ms)
+2026-03-25 21:18:27.503 [Thread-19] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (409ms)
+2026-03-25 21:18:27.503 [Thread-19] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 21:18:27.503 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:27.506 [Thread-19] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 21:18:27.507 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:27.507 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:27.507 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:27.507 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:27.511 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:27.511 [Thread-19] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 21:18:27.511 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:27.514 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:27.514 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:27.514 [Thread-19] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 21:18:27.514 [Thread-19] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:27.517 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:27.517 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [1E9DBD91]                  ║
+2026-03-25 21:18:27.517 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 21:18:27.517 [Thread-19] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:27.519 [Thread-19] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 21:18:36.484 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:36.484 [Thread-24] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 305E03E3
+2026-03-25 21:18:36.484 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:36.489 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:36.489 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 21:18:36.489 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 305E03E3                      ║
+2026-03-25 21:18:36.489 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 21:18:36.489 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:36.491 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:36.491 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:36.494 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:18:36.497 [test-thread-85] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 21:18:36.919 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 428ms)
+2026-03-25 21:18:36.921 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 430ms)
+2026-03-25 21:18:36.921 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:36.924 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:36.987 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 493ms)
+2026-03-25 21:18:36.989 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:18:37.576 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 650ms)
+2026-03-25 21:18:37.576 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:37.576 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 587ms)
+2026-03-25 21:18:37.578 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:37.578 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 657ms)
+2026-03-25 21:18:37.580 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:18:38.085 [test-thread-83] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 509ms)
+2026-03-25 21:18:38.102 [test-thread-84] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 524ms)
+2026-03-25 21:18:38.121 [test-thread-82] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 541ms)
+2026-03-25 21:18:38.134 [Thread-24] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (428ms)
+2026-03-25 21:18:38.142 [Thread-24] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (650ms)
+2026-03-25 21:18:38.149 [Thread-24] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (524ms)
+2026-03-25 21:18:38.149 [Thread-24] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 21:18:38.151 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:38.151 [Thread-24] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 21:18:38.151 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:38.154 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:38.154 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:38.156 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:18:38.156 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:38.156 [Thread-24] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 21:18:38.158 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:18:38.158 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:18:38.160 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:18:38.160 [Thread-24] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 21:18:38.160 [Thread-24] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:18:38.163 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:18:38.163 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [305E03E3]                  ║
+2026-03-25 21:18:38.163 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 21:18:38.163 [Thread-24] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:18:38.166 [Thread-24] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 21:52:44.690 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m39s565ms26µs400ns).
+2026-03-25 21:59:27.672 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:59:27.672 [Thread-29] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: E737AF34
+2026-03-25 21:59:27.677 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:59:27.677 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:59:27.677 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 21:59:27.679 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : E737AF34                      ║
+2026-03-25 21:59:27.679 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 21:59:27.679 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:59:27.681 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:59:27.684 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:59:27.684 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 21:59:27.684 [test-thread-102] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 21:59:28.118 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 434ms)
+2026-03-25 21:59:28.118 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 437ms)
+2026-03-25 21:59:28.118 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:59:28.121 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:59:28.218 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 530ms)
+2026-03-25 21:59:28.218 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 21:59:28.628 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 507ms)
+2026-03-25 21:59:28.628 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:59:28.691 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 473ms)
+2026-03-25 21:59:28.691 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:59:28.751 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 633ms)
+2026-03-25 21:59:28.751 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 21:59:29.016 [test-thread-99] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 388ms)
+2026-03-25 21:59:29.034 [Thread-29] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (437ms)
+2026-03-25 21:59:29.081 [test-thread-101] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 390ms)
+2026-03-25 21:59:29.147 [test-thread-100] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 396ms)
+2026-03-25 21:59:29.153 [Thread-29] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (633ms)
+2026-03-25 21:59:29.161 [Thread-29] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (390ms)
+2026-03-25 21:59:29.161 [Thread-29] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 21:59:29.161 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:59:29.168 [Thread-29] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 21:59:29.169 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:59:29.169 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:59:29.171 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:59:29.171 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 21:59:29.171 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:59:29.171 [Thread-29] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 21:59:29.175 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 21:59:29.175 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 21:59:29.175 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 21:59:29.175 [Thread-29] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 21:59:29.175 [Thread-29] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 21:59:29.180 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 21:59:29.180 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [E737AF34]                  ║
+2026-03-25 21:59:29.180 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 21:59:29.182 [Thread-29] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 21:59:29.183 [Thread-29] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 22:00:39.027 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:00:39.027 [Thread-34] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 7673B097
+2026-03-25 22:00:39.029 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:00:39.029 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:00:39.029 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 22:00:39.031 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 7673B097                      ║
+2026-03-25 22:00:39.031 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 22:00:39.031 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:00:39.033 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:00:39.035 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:00:39.035 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:00:39.035 [test-thread-113] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 22:00:39.413 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 380ms)
+2026-03-25 22:00:39.413 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:00:39.446 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 411ms)
+2026-03-25 22:00:39.451 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:00:39.522 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 487ms)
+2026-03-25 22:00:39.522 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:00:39.908 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 495ms)
+2026-03-25 22:00:39.908 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:00:39.953 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 502ms)
+2026-03-25 22:00:39.958 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:00:39.996 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 474ms)
+2026-03-25 22:00:40.001 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:00:40.319 [test-thread-110] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 411ms)
+2026-03-25 22:00:40.329 [Thread-34] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (380ms)
+2026-03-25 22:00:40.387 [test-thread-111] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 429ms)
+2026-03-25 22:00:40.395 [Thread-34] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (502ms)
+2026-03-25 22:00:40.397 [test-thread-112] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 396ms)
+2026-03-25 22:00:40.406 [Thread-34] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (396ms)
+2026-03-25 22:00:40.406 [Thread-34] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 22:00:40.406 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:00:40.406 [Thread-34] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 22:00:40.409 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:00:40.409 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:00:40.409 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:00:40.412 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:00:40.414 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:00:40.418 [Thread-34] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:00:40.420 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:00:40.420 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:00:40.420 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:00:40.420 [Thread-34] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 22:00:40.423 [Thread-34] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:00:40.423 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:00:40.423 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [7673B097]                  ║
+2026-03-25 22:00:40.423 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 22:00:40.426 [Thread-34] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:00:40.426 [Thread-34] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 22:01:27.079 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:01:27.085 [Thread-39] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 970900F7
+2026-03-25 22:01:27.085 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:01:27.087 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:01:27.087 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 22:01:27.087 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 970900F7                      ║
+2026-03-25 22:01:27.087 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 22:01:27.090 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:01:27.092 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:01:27.093 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:01:27.093 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:01:27.093 [test-thread-126] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 22:01:27.479 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 387ms)
+2026-03-25 22:01:27.481 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:01:27.483 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 390ms)
+2026-03-25 22:01:27.484 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:01:27.649 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 556ms)
+2026-03-25 22:01:27.652 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:01:27.981 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 497ms)
+2026-03-25 22:01:27.983 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 500ms)
+2026-03-25 22:01:27.991 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:01:27.995 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:01:28.131 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 479ms)
+2026-03-25 22:01:28.132 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:01:28.375 [test-thread-125] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 384ms)
+2026-03-25 22:01:28.481 [test-thread-123] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 486ms)
+2026-03-25 22:01:28.497 [Thread-39] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (387ms)
+2026-03-25 22:01:28.602 [Thread-44] INFO  c.example.framework.util.LoggerUtil - Starting UI Tests Only - Run ID: D488E8E1
+2026-03-25 22:01:28.602 [Thread-44] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 22:01:28.635 [test-thread-124] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 503ms)
+2026-03-25 22:01:28.644 [Thread-39] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (479ms)
+2026-03-25 22:01:28.649 [Thread-39] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (384ms)
+2026-03-25 22:01:28.649 [Thread-39] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 22:01:28.649 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:01:28.653 [Thread-39] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 22:01:28.653 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:01:28.654 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:01:28.654 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:01:28.656 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:01:28.656 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:01:28.656 [Thread-39] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:01:28.656 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:01:28.656 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:01:28.660 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:01:28.660 [Thread-39] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 22:01:28.660 [Thread-39] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:01:28.660 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:01:28.660 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [970900F7]                  ║
+2026-03-25 22:01:28.665 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 22:01:28.665 [Thread-39] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:01:28.665 [Thread-39] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 22:02:07.387 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Starting API Tests Only - Run ID: 65B16403
+2026-03-25 22:02:07.387 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:07.776 [Thread-45] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 389ms)
+2026-03-25 22:02:07.777 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:08.352 [Thread-45] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 576ms)
+2026-03-25 22:02:08.356 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:08.429 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:08.429 [Thread-46] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 6B964E20
+2026-03-25 22:02:08.431 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:08.432 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:02:08.432 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 22:02:08.432 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 6B964E20                      ║
+2026-03-25 22:02:08.432 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 22:02:08.432 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:02:08.434 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:08.434 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:08.434 [test-thread-133] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 22:02:08.434 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:08.818 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 384ms)
+2026-03-25 22:02:08.819 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:08.858 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 424ms)
+2026-03-25 22:02:08.860 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:08.879 [Thread-45] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 523ms)
+2026-03-25 22:02:08.901 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 467ms)
+2026-03-25 22:02:08.901 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:08.903 [Thread-45] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:08.906 [Thread-45] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:02:08.906 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Total Tests: 3
+2026-03-25 22:02:08.908 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:08.908 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+2026-03-25 22:02:08.910 [Thread-45] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+2026-03-25 22:02:08.910 [Thread-45] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:09.309 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 490ms)
+2026-03-25 22:02:09.309 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:09.369 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 509ms)
+2026-03-25 22:02:09.374 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:09.393 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 492ms)
+2026-03-25 22:02:09.393 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:09.686 [test-thread-132] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 377ms)
+2026-03-25 22:02:09.761 [test-thread-131] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 387ms)
+2026-03-25 22:02:09.807 [test-thread-130] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 414ms)
+2026-03-25 22:02:09.816 [Thread-46] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (467ms)
+2026-03-25 22:02:09.830 [Thread-46] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (509ms)
+2026-03-25 22:02:09.835 [Thread-46] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (377ms)
+2026-03-25 22:02:09.835 [Thread-46] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 22:02:09.835 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:09.835 [Thread-46] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 22:02:09.841 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:02:09.850 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:09.853 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:02:09.856 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:09.858 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:09.862 [Thread-46] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:02:09.866 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:02:09.868 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:09.872 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:02:09.876 [Thread-46] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 22:02:09.880 [Thread-46] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:09.882 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:02:09.886 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [6B964E20]                  ║
+2026-03-25 22:02:09.888 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 22:02:09.890 [Thread-46] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:02:09.898 [Thread-46] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 22:02:33.046 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:33.046 [Thread-51] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION STARTED - Run ID: 0932DB7E
+2026-03-25 22:02:33.049 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:33.050 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:02:33.050 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ║  PARALLEL TEST RUN STARTED               ║
+2026-03-25 22:02:33.050 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ║  Run ID   : 0932DB7E                      ║
+2026-03-25 22:02:33.050 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ║  Threads  : 4                            ║
+2026-03-25 22:02:33.050 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:02:33.052 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:33.052 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:33.052 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:33.052 [test-thread-138] INFO  c.example.framework.util.LoggerUtil - Starting UI Test: Google Search Test
+2026-03-25 22:02:33.442 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 388ms)
+2026-03-25 22:02:33.452 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:33.618 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 566ms)
+2026-03-25 22:02:33.618 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 566ms)
+2026-03-25 22:02:33.618 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:33.618 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:33.950 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 498ms)
+2026-03-25 22:02:33.950 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:34.114 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 496ms)
+2026-03-25 22:02:34.116 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:34.196 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 578ms)
+2026-03-25 22:02:34.196 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:34.326 [test-thread-135] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 376ms)
+2026-03-25 22:02:34.336 [Thread-51] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /posts/1 — Fetch Single Post (388ms)
+2026-03-25 22:02:34.585 [test-thread-137] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 469ms)
+2026-03-25 22:02:34.636 [test-thread-136] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 440ms)
+2026-03-25 22:02:34.643 [Thread-51] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] POST /posts — Create New Post (578ms)
+2026-03-25 22:02:34.651 [Thread-51] INFO  c.e.framework.execution.TestExecutor - Saved result → [PASSED] GET /users/1 — Fetch User Profile (469ms)
+2026-03-25 22:02:34.651 [Thread-51] ERROR c.e.framework.execution.TestExecutor - Test threw an exception: org/apache/hc/client5/http/ssl/TlsSocketStrategy
+2026-03-25 22:02:34.651 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:34.651 [Thread-51] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION COMPLETED
+2026-03-25 22:02:34.651 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:02:34.656 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:34.656 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ========================================
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Total Tests: 4
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:34.658 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Failed: 1
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 75.00%
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ╔══════════════════════════════════════════╗
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ║  RUN COMPLETE  [0932DB7E]                  ║
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ║  Total : 4  |  Passed : 3  |  Failed : 1 ║
+2026-03-25 22:02:34.662 [Thread-51] INFO  c.e.framework.execution.TestExecutor - ╚══════════════════════════════════════════╝
+2026-03-25 22:02:34.666 [Thread-51] WARN  c.e.framework.execution.TestExecutor - Report generation failed: Conversion = ';'
+2026-03-25 22:02:34.749 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Tests Only - Run ID: 829EF989
+2026-03-25 22:02:34.751 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /posts/1 — Fetch Single Post
+2026-03-25 22:02:35.242 [Thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /posts/1 — Fetch Single Post (Duration: 491ms)
+2026-03-25 22:02:35.244 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: POST /posts — Create New Post
+2026-03-25 22:02:35.723 [Thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: POST /posts — Create New Post (Duration: 479ms)
+2026-03-25 22:02:35.723 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Starting API Test: GET /users/1 — Fetch User Profile
+2026-03-25 22:02:36.125 [Thread-56] INFO  c.example.framework.util.LoggerUtil - API Test Passed: GET /users/1 — Fetch User Profile (Duration: 402ms)
+2026-03-25 22:02:36.149 [Thread-56] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
+2026-03-25 22:02:36.149 [Thread-56] INFO  c.example.framework.util.LoggerUtil - TEST EXECUTION SUMMARY
+2026-03-25 22:02:36.152 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Total Tests: 3
+2026-03-25 22:02:36.152 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Passed: 3
+2026-03-25 22:02:36.154 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Failed: 0
+2026-03-25 22:02:36.154 [Thread-56] INFO  c.example.framework.util.LoggerUtil - Pass Rate: 100.00%
+2026-03-25 22:02:36.154 [Thread-56] INFO  c.example.framework.util.LoggerUtil - ──────────────────────────────────────────────────
